@@ -214,8 +214,8 @@
           "corner_style": 1,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
-          "single_sided": false,
-          "spacing": 0.6
+          "single_sided": true,
+          "spacing": 0.5
         }
       },
       "via_dimensions": [
