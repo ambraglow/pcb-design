@@ -2096,16 +2096,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 39.37 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd2ee9e7-15df-4d21-b183-e9e45b1d463f")
-	)
-	(wire
-		(pts
 			(xy 57.15 132.08) (xy 57.15 135.89)
 		)
 		(stroke
@@ -3820,73 +3810,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 39.37 130.81 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6bfeefd2-ae23-4fcc-a638-6c358db96610")
-		(property "Reference" "TP15"
-			(at 41.91 126.2379 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 41.91 128.7779 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 44.45 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 39.37 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc6aa7d3-cd4e-491f-944e-312dc25ff095")
-		)
-		(instances
-			(project "LCD_Adapter"
-				(path "/90bbffcf-f1b0-4966-a1ef-be58cceb8518/b0fb8bfa-f4e7-44f8-8167-420406ac11d5"
-					(reference "TP15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 162.56 49.53 0)
 		(unit 1)
@@ -4080,72 +4003,6 @@
 			(project "LCD_Adapter"
 				(path "/90bbffcf-f1b0-4966-a1ef-be58cceb8518/b0fb8bfa-f4e7-44f8-8167-420406ac11d5"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 39.37 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f45be98-c429-4528-96ae-dbdd8dc3a0dc")
-		(property "Reference" "#PWR041"
-			(at 39.37 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "855843c4-300c-4cf5-a461-44caa6861304")
-		)
-		(instances
-			(project "LCD_Adapter"
-				(path "/90bbffcf-f1b0-4966-a1ef-be58cceb8518/b0fb8bfa-f4e7-44f8-8167-420406ac11d5"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
