@@ -15356,37 +15356,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 1d786b45-d7f3-43c6-a5e9-3e90e519b7b2)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 281.94 109.22) (xy 293.37 109.22) (xy 293.37 167.64) (xy 281.305 167.64)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 712b4685-475a-432f-8e7c-f669aab83843)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 194.31 35.56) (xy 214.63 35.56) (xy 214.63 64.77) (xy 194.31 64.77)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 7aa000eb-bf3b-4f7d-ae6a-c8571c77ac9a)
+			(uuid 14ff7cac-7caf-408b-bb1b-05c28abf133e)
 		)
 	)
 	(rule_area
@@ -15401,7 +15371,7 @@
 			(fill
 				(type none)
 			)
-			(uuid b9bf68a8-0b24-400d-ae35-52e195d4f927)
+			(uuid 2d8fa358-2d81-45ec-983b-4f8c2be409cb)
 		)
 	)
 	(rule_area
@@ -15416,7 +15386,52 @@
 			(fill
 				(type none)
 			)
-			(uuid e306171c-3918-45f3-9160-da2d3c3b1baa)
+			(uuid 5d7f113e-4677-4429-a110-059cddc6c00c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 281.94 109.22) (xy 293.37 109.22) (xy 293.37 167.64) (xy 281.305 167.64)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 7332e54a-4727-4258-9d3b-b877396764b0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 194.31 35.56) (xy 214.63 35.56) (xy 214.63 64.77) (xy 194.31 64.77)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid aa1bdac8-3efc-4e5d-87ce-54f25654877e)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 167.64 140.97) (xy 167.64 157.48) (xy 175.26 157.48) (xy 175.26 140.97)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid cf50fcae-bd2a-4a11-9f40-7f0a6068fc2b)
 		)
 	)
 	(netclass_flag ""
@@ -15477,6 +15492,36 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 170.18 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4321dfc1-1476-4dbf-ade5-377f4aebe95b")
+		(property "Netclass" "DDR_AC"
+			(at 172.212 158.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 486.41 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -15610,7 +15655,7 @@
 		(dnp no)
 		(uuid "00dd4022-197a-4814-9def-2a115fc9579a")
 		(property "Reference" "TP403"
-			(at 165.1 146.558 0)
+			(at 159.512 153.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)

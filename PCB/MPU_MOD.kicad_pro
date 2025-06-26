@@ -488,7 +488,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
+        "track_width": 0.1184,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -782,6 +782,7 @@
         "PWM"
       ],
       "GND": [
+        "DDR_AC",
         "HS_intrf",
         "PWM",
         "RCC_BOOT_RST_DEBUG",
@@ -922,6 +923,9 @@
       ],
       "Net-(U301A-VREF+)": [
         "MPU_PWR"
+      ],
+      "Net-(U301B-DDR_ZQ)": [
+        "DDR_AC"
       ],
       "Net-(U301E-BOOT0)": [
         "RCC_BOOT_RST_DEBUG"
