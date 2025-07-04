@@ -5,7 +5,7 @@
     "auto_track_width": true,
     "hidden_netclasses": [
       "100_ohm_diff",
-      "DDR_DQ",
+      "DDR_AC",
       "Default",
       "HS_intrf",
       "MPU_PWR",
