@@ -15347,7 +15347,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 194.31 35.56) (xy 214.63 35.56) (xy 214.63 64.77) (xy 194.31 64.77)
+				(xy 167.64 140.97) (xy 167.64 157.48) (xy 175.26 157.48) (xy 175.26 140.97)
 			)
 			(stroke
 				(width 0)
@@ -15356,37 +15356,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 050897b8-7bcb-4fec-92f8-d4ac97a31d2d)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 294.9575 109.22) (xy 309.5625 109.22) (xy 309.5625 123.19) (xy 294.9575 123.19)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 0f02804d-7a63-4f1b-a2b8-2ed277bdcc61)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 194.31 73.66) (xy 214.63 73.66) (xy 214.63 133.35) (xy 194.31 133.35)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 232fe6bd-5c4f-47d9-be50-df5f8f1b122b)
+			(uuid 14b820f6-e672-4997-bc96-52ddbfc13658)
 		)
 	)
 	(rule_area
@@ -15401,13 +15371,13 @@
 			(fill
 				(type none)
 			)
-			(uuid 610303f1-0617-4f6f-b19c-a1752ea502d5)
+			(uuid 58a7070a-ddfa-4e06-b50e-9f95cdeb5881)
 		)
 	)
 	(rule_area
 		(polyline
 			(pts
-				(xy 167.64 140.97) (xy 167.64 157.48) (xy 175.26 157.48) (xy 175.26 140.97)
+				(xy 194.31 73.66) (xy 214.63 73.66) (xy 214.63 133.35) (xy 194.31 133.35)
 			)
 			(stroke
 				(width 0)
@@ -15416,7 +15386,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 8812b1e7-7b3a-4cb9-969e-b457b4e6ef71)
+			(uuid 69a0b9e1-1e82-4dae-8bf8-bc69c6d138b5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 194.31 35.56) (xy 214.63 35.56) (xy 214.63 64.77) (xy 194.31 64.77)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 6b6d66e9-0977-4fef-afce-b5b967b5c76d)
 		)
 	)
 	(rule_area
@@ -15431,7 +15416,22 @@
 			(fill
 				(type none)
 			)
-			(uuid f06d1476-e3e2-4e7f-80c5-ce35bbefe13c)
+			(uuid b6bfa4e4-8a14-4bfe-9c3e-5b586c6014f0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 294.9575 109.22) (xy 309.5625 109.22) (xy 309.5625 123.19) (xy 294.9575 123.19)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid c0cf31c3-fef7-45f0-8352-8a762c54ecb5)
 		)
 	)
 	(netclass_flag ""
@@ -15673,7 +15673,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 168.91 148.59 0)
 			(effects
 				(font
@@ -20459,7 +20459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -20763,7 +20763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 156.21 148.59 0)
 			(effects
 				(font

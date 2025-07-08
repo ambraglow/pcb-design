@@ -15566,7 +15566,7 @@
 			(fill
 				(type none)
 			)
-			(uuid a600849a-c626-48fa-99cc-3dc46799daf1)
+			(uuid bb1b1792-47f4-4c10-aa86-db102373cf7b)
 		)
 	)
 	(netclass_flag ""
@@ -15844,7 +15844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 248.92 43.18 0)
 			(effects
 				(font
@@ -15997,7 +15997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 213.36 27.94 0)
 			(effects
 				(font
@@ -16610,7 +16610,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 233.68 43.18 0)
 			(effects
 				(font
@@ -16677,7 +16677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 241.3 43.18 0)
 			(effects
 				(font
@@ -19068,7 +19068,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 226.06 43.18 0)
 			(effects
 				(font
@@ -19135,7 +19135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 59.69 154.94 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-25655329853012560
+25660585601617706
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -102676,6 +102676,13 @@ BQ24298RTWR
 30
 26
 lib
+CAPC1005X55N
+
+
+0
+2
+2
+lib
 CAPCP3225X100N
 
 
@@ -102696,6 +102703,13 @@ CUI_SJ-43504-SMT-TR
 0
 6
 6
+lib
+C_0402_small
+Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+capacitor
+0
+2
+2
 lib
 DIODE_ESDA7P120-1U1M_STM
 
@@ -102850,6 +102864,13 @@ SW_PTS525SM15SMTR2LFS
 0
 4
 4
+lib
+TP_0.5
+
+
+0
+1
+1
 lib
 TRANS_STL9P3LLH6
 

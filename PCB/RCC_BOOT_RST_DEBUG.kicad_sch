@@ -9691,7 +9691,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "PTVS3V3S1UR"
+			(property "Value" ""
 				(at -5.08 -5.08 0)
 				(effects
 					(font
@@ -9921,6 +9921,8 @@
 						(type none)
 					)
 				)
+			)
+			(symbol "PTVS3V3S1UR_1_0"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 5.08)
@@ -9931,7 +9933,7 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -9949,7 +9951,7 @@
 							)
 						)
 					)
-					(number "A"
+					(number "2"
 						(effects
 							(font
 								(size 1.016 1.016)
@@ -10302,12 +10304,6 @@
 		(uuid "5baa4736-1f6c-45c4-9ca4-b787dbf8ecec")
 	)
 	(junction
-		(at 67.31 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5cfc540b-130b-4ab1-9424-88cf491c799b")
-	)
-	(junction
 		(at 245.11 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10366,6 +10362,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae9c2cc7-e004-481f-9eca-b8d701706d0a")
+	)
+	(junction
+		(at 67.31 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b13dca31-2a1d-4da5-923f-df1655d62ab6")
 	)
 	(junction
 		(at 40.64 33.02)
@@ -11171,7 +11173,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 33.02) (xy 67.31 33.02)
+			(xy 43.18 33.02) (xy 67.31 33.02)
 		)
 		(stroke
 			(width 0)
@@ -11701,16 +11703,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 33.02) (xy 67.31 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de912226-626e-4f68-8987-a0124325e738")
-	)
-	(wire
-		(pts
 			(xy 148.59 91.44) (xy 148.59 90.17)
 		)
 		(stroke
@@ -11748,6 +11740,16 @@
 			(type default)
 		)
 		(uuid "e9ed5340-b7fe-4a8f-8665-3624c15ddcb8")
+	)
+	(wire
+		(pts
+			(xy 67.31 33.02) (xy 80.01 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb119f66-1b70-45f9-a53a-37a015309e2d")
 	)
 	(wire
 		(pts
@@ -12206,7 +12208,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5fccc46e-b501-4ccc-911b-5a5da1d354b6)
+			(uuid d0d8595e-bc62-4b27-9d37-a32079507d4d)
 		)
 	)
 	(netclass_flag ""
@@ -12268,7 +12270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 321.31 107.95 0)
 			(effects
 				(font
@@ -12335,7 +12337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 144.78 115.57 0)
 			(effects
 				(font
@@ -13675,7 +13677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 328.93 107.95 0)
 			(effects
 				(font
@@ -13980,7 +13982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 313.69 107.95 0)
 			(effects
 				(font
@@ -14047,7 +14049,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 294.64 107.95 0)
 			(effects
 				(font
@@ -14258,7 +14260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 300.99 107.95 0)
 			(effects
 				(font
@@ -14325,7 +14327,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 307.34 107.95 0)
 			(effects
 				(font
@@ -14684,7 +14686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 375.92 109.22 0)
 			(effects
 				(font
@@ -14946,6 +14948,198 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
 					(reference "#PWR0710")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTVS3V3S1UR:PTVS3V3S1UR")
+		(at 67.31 38.1 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93e30e7b-bc65-4074-950f-9fc1da773d1f")
+		(property "Reference" "D3"
+			(at 64.77 36.8299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MSP3V3-M3/89A"
+			(at 64.77 39.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MicroSMP_KA"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "NXP Semiconductors"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=eda"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. 3"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=snap"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TVS Diode Single Uni-Dir 3.3V 400W Automotive 2-Pin SOD-123W T/R"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 67.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "df9ba2d8-4f63-4a3c-a854-b3316b5f28a9")
+		)
+		(pin "1"
+			(uuid "41e28087-f848-4fce-b7b4-2ebea6fde941")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -16972,7 +17166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 151.13 115.57 0)
 			(effects
 				(font
@@ -17493,7 +17687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Library:TP_0.5mm"
+		(property "Footprint" "lib:TP_0.5"
 			(at 288.29 107.95 0)
 			(effects
 				(font
@@ -17678,198 +17872,6 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
 					(reference "#PWR0702")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PTVS3V3S1UR:PTVS3V3S1UR")
-		(at 67.31 38.1 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee30a91c-8241-48ee-8fe1-e03ee684eea3")
-		(property "Reference" "D701"
-			(at 64.77 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PTVS3V3S1UR"
-			(at 64.77 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib:TVS_PTVS3V3S1UR"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "NXP Semiconductors"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=eda"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Rev. 3"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=snap"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "PTVS3V3S1UR"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "TVS Diode Single Uni-Dir 3.3V 400W Automotive 2-Pin SOD-123W T/R"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "C"
-			(uuid "76cbaa14-8ffa-4982-beaa-8036e1ff4e33")
-		)
-		(pin "A"
-			(uuid "9898f6a5-ca9a-476e-802a-6fd2042b6575")
-		)
-		(instances
-			(project ""
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
-					(reference "D701")
 					(unit 1)
 				)
 			)
