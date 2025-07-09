@@ -498,59 +498,66 @@
         "diff_pair_width": 0.1019,
         "name": "100_ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(148, 255, 166)",
         "track_width": 0.114
       },
       {
         "name": "DDR_AC",
         "pcb_color": "rgb(255, 45, 215)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(255, 172, 24)",
         "track_width": 0.1184
       },
       {
         "name": "DDR_DQ",
         "pcb_color": "rgb(84, 255, 118)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(255, 45, 64)",
         "track_width": 0.1184
       },
       {
         "name": "HS_intrf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "MPU_PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "RCC_BOOT_RST_DEBUG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SDMMC1",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1184
       },
       {
         "name": "SDMMC2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgb(88, 208, 255)",
         "track_width": 0.1443
       },
       {
         "name": "WIFI_BLE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -987,6 +994,24 @@
       ],
       "PWR_SW_WAKE_UP": [
         "PWM"
+      ],
+      "SDMMC1_CK": [
+        "SDMMC1"
+      ],
+      "SDMMC1_CMD": [
+        "SDMMC1"
+      ],
+      "SDMMC1_D0": [
+        "SDMMC1"
+      ],
+      "SDMMC1_D1": [
+        "SDMMC1"
+      ],
+      "SDMMC1_D2": [
+        "SDMMC1"
+      ],
+      "SDMMC1_D3": [
+        "SDMMC1"
       ],
       "SDMMC2_CK": [
         "SDMMC2"

@@ -147,6 +147,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3045,6 +3171,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PTVS3V3S1UR:PTVS3V3S1UR"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" ""
+				(at -5.08 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "PTVS3V3S1UR:TVS_PTVS3V3S1UR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MF" "NXP Semiconductors"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.1 mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=eda"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "Rev. 3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=snap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MP" "PTVS3V3S1UR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Description_1" "TVS Diode Single Uni-Dir 3.3V 400W Automotive 2-Pin SOD-123W T/R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Nexperia"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "PTVS3V3S1UR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTVS3V3S1UR_1_0"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -3430,6 +3843,12 @@
 		(uuid "0a4e77f3-d89d-40f3-9b75-38030799cad9")
 	)
 	(junction
+		(at 345.44 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c428bfd-4c2d-4f44-ba58-f130c6408f25")
+	)
+	(junction
 		(at 64.77 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3472,6 +3891,12 @@
 		(uuid "1d9d2c15-e6c4-4139-9522-30c225dc3bf6")
 	)
 	(junction
+		(at 328.93 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f0596d6-1d1e-4f2c-b863-9a89c7297bd4")
+	)
+	(junction
 		(at 60.96 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3508,12 +3933,6 @@
 		(uuid "35e0a1de-da34-4743-941c-d10a508d12e3")
 	)
 	(junction
-		(at 297.18 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "364bfad6-4338-4c48-9ee5-82967e675c51")
-	)
-	(junction
 		(at 66.04 189.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3524,6 +3943,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c7df795-289d-4e8c-9f19-8a8d4d84278a")
+	)
+	(junction
+		(at 358.14 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4258150c-145c-4bb4-bbd5-7b40e7f2a788")
 	)
 	(junction
 		(at 158.75 153.67)
@@ -3596,18 +4021,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ce8ab4b-924b-4857-88c4-e3d9f662b2f4")
-	)
-	(junction
-		(at 331.47 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d2dee17-a7f0-49ff-8cff-cb99b4bde63e")
-	)
-	(junction
-		(at 299.72 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70f6cc29-2b9c-470a-85de-a6055081df2a")
 	)
 	(junction
 		(at 151.13 156.21)
@@ -3754,12 +4167,6 @@
 		(uuid "aab753a8-cafd-42d1-87c5-4298b7aa42e6")
 	)
 	(junction
-		(at 328.93 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "acf85014-0d53-4c0d-9c03-b28f6a56711c")
-	)
-	(junction
 		(at 166.37 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3776,6 +4183,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b600aee5-52d8-4fa0-a233-04a279501824")
+	)
+	(junction
+		(at 297.18 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6d3c364-a4c4-401a-9e14-d846ad33ab99")
 	)
 	(junction
 		(at 64.77 224.79)
@@ -3824,6 +4237,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce854c9a-61a1-4019-90e0-cd580b96c69d")
+	)
+	(junction
+		(at 331.47 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1bd6813-e25f-437e-bd22-e293fcdc792a")
+	)
+	(junction
+		(at 299.72 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "df058169-c35f-421e-85ef-35235e654bea")
 	)
 	(junction
 		(at 191.77 137.16)
@@ -3910,6 +4335,10 @@
 		(uuid "fdc9230f-28fa-472d-a654-eff80514d025")
 	)
 	(no_connect
+		(at 299.72 195.58)
+		(uuid "4a42f9f5-2e63-416f-aa01-70c41cd8587e")
+	)
+	(no_connect
 		(at 107.95 170.18)
 		(uuid "67da50be-c786-454a-b932-d4aa19e3273e")
 	)
@@ -3952,16 +4381,6 @@
 			(type default)
 		)
 		(uuid "03cc42c9-ca4a-4ed7-8cc1-9057d77aa511")
-	)
-	(wire
-		(pts
-			(xy 345.44 107.95) (xy 345.44 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "042fd098-3d09-491e-91cc-00ed3c79b194")
 	)
 	(wire
 		(pts
@@ -4045,7 +4464,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 146.05) (xy 322.58 146.05)
+			(xy 279.4 146.05) (xy 299.72 146.05)
 		)
 		(stroke
 			(width 0)
@@ -4075,7 +4494,7 @@
 	)
 	(wire
 		(pts
-			(xy 307.34 135.89) (xy 347.98 135.89)
+			(xy 307.34 135.89) (xy 331.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4185,6 +4604,16 @@
 	)
 	(wire
 		(pts
+			(xy 299.72 146.05) (xy 322.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21b163aa-a610-4a6d-9e39-90d065f30f3a")
+	)
+	(wire
+		(pts
 			(xy 151.13 119.38) (xy 151.13 104.14)
 		)
 		(stroke
@@ -4225,7 +4654,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 140.97) (xy 314.96 140.97)
+			(xy 279.4 140.97) (xy 314.96 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4265,7 +4694,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 148.59) (xy 330.2 148.59)
+			(xy 279.4 148.59) (xy 297.18 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4302,6 +4731,16 @@
 			(type default)
 		)
 		(uuid "31ac8867-b97c-48fd-83bf-cd55531da44b")
+	)
+	(wire
+		(pts
+			(xy 331.47 135.89) (xy 331.47 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d45433-668d-4511-9082-d187a611b2b6")
 	)
 	(wire
 		(pts
@@ -4495,16 +4934,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 140.97) (xy 297.18 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4bd12773-feef-4cbf-8566-f184fee796c3")
-	)
-	(wire
-		(pts
 			(xy 107.95 153.67) (xy 158.75 153.67)
 		)
 		(stroke
@@ -4512,16 +4941,6 @@
 			(type default)
 		)
 		(uuid "4d00528d-a0ee-47b6-ba1d-be7a7a0e9471")
-	)
-	(wire
-		(pts
-			(xy 322.58 146.05) (xy 331.47 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d53279c-a93a-4f3d-a459-17aafa8943db")
 	)
 	(wire
 		(pts
@@ -4582,16 +5001,6 @@
 			(type default)
 		)
 		(uuid "520f0e7a-9bfb-4be0-be4b-57ea6aa76c77")
-	)
-	(wire
-		(pts
-			(xy 331.47 146.05) (xy 331.47 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55cfaf8f-da57-4852-881a-44733794eabb")
 	)
 	(wire
 		(pts
@@ -4795,7 +5204,17 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 135.89) (xy 307.34 135.89)
+			(xy 345.44 109.22) (xy 346.71 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b8907db-65e0-43bf-baa7-fd531f659b05")
+	)
+	(wire
+		(pts
+			(xy 279.4 135.89) (xy 307.34 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4905,6 +5324,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 148.59) (xy 330.2 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8779eb50-9586-4107-be64-6d7504d9bff2")
+	)
+	(wire
+		(pts
 			(xy 128.27 114.3) (xy 128.27 163.83)
 		)
 		(stroke
@@ -4922,6 +5351,16 @@
 			(type default)
 		)
 		(uuid "8a070a71-7181-4078-8b05-df43d75dc181")
+	)
+	(wire
+		(pts
+			(xy 328.93 140.97) (xy 347.98 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b8fec75-758c-4fbf-a4a4-b6fe6c9be45b")
 	)
 	(wire
 		(pts
@@ -5035,7 +5474,17 @@
 	)
 	(wire
 		(pts
-			(xy 314.96 140.97) (xy 347.98 140.97)
+			(xy 358.14 109.22) (xy 358.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c881d3-a499-43d5-98ce-ff02b214a4ec")
+	)
+	(wire
+		(pts
+			(xy 314.96 140.97) (xy 328.93 140.97)
 		)
 		(stroke
 			(width 0)
@@ -5072,6 +5521,16 @@
 			(type default)
 		)
 		(uuid "ac80c1b5-3200-466a-b37a-4a49148fdd1e")
+	)
+	(wire
+		(pts
+			(xy 345.44 109.22) (xy 345.44 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acae7986-950e-4d97-b6a7-9bd1045b6867")
 	)
 	(wire
 		(pts
@@ -5155,6 +5614,16 @@
 	)
 	(wire
 		(pts
+			(xy 331.47 135.89) (xy 347.98 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b15008fb-a910-4c0b-8b34-17918301bbde")
+	)
+	(wire
+		(pts
 			(xy 299.72 185.42) (xy 297.18 185.42)
 		)
 		(stroke
@@ -5182,16 +5651,6 @@
 			(type default)
 		)
 		(uuid "b34b7396-743b-4b72-92e5-6953f16ee6c1")
-	)
-	(wire
-		(pts
-			(xy 279.4 148.59) (xy 328.93 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b391bdf6-61a8-41fe-b0f4-c86691754e93")
 	)
 	(wire
 		(pts
@@ -5232,6 +5691,16 @@
 			(type default)
 		)
 		(uuid "b61f927e-dfcf-4498-bfe8-0fa8d198ab18")
+	)
+	(wire
+		(pts
+			(xy 345.44 90.17) (xy 345.44 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b72eec84-b981-423f-9a4e-10be5396ec31")
 	)
 	(wire
 		(pts
@@ -5295,16 +5764,6 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 195.58) (xy 328.93 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd1827dd-85b4-49ab-a3f1-1344e296af14")
-	)
-	(wire
-		(pts
 			(xy 33.02 212.09) (xy 36.83 212.09)
 		)
 		(stroke
@@ -5312,16 +5771,6 @@
 			(type default)
 		)
 		(uuid "bd5fdd12-5946-4b16-8377-48d08f9c6b69")
-	)
-	(wire
-		(pts
-			(xy 299.72 135.89) (xy 299.72 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdcfe4f6-e715-4c00-990f-876726d2de02")
 	)
 	(wire
 		(pts
@@ -5352,6 +5801,16 @@
 			(type default)
 		)
 		(uuid "bf8ff6fa-19b2-4185-81de-683893cf7da4")
+	)
+	(wire
+		(pts
+			(xy 297.18 148.59) (xy 297.18 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07afb6e-79d0-4b4d-a07c-a3b1854c6d0f")
 	)
 	(wire
 		(pts
@@ -5405,13 +5864,23 @@
 	)
 	(wire
 		(pts
-			(xy 331.47 146.05) (xy 347.98 146.05)
+			(xy 322.58 146.05) (xy 347.98 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6c19fa5-0aff-4f73-9016-63471de0a36a")
+	)
+	(wire
+		(pts
+			(xy 299.72 146.05) (xy 299.72 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6165db-7099-4e9b-8bfc-851f58e600f3")
 	)
 	(wire
 		(pts
@@ -5495,16 +5964,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 185.42) (xy 297.18 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d53d7671-aa42-4939-a83d-3dacf82d06ce")
-	)
-	(wire
-		(pts
 			(xy 64.77 224.79) (xy 64.77 227.33)
 		)
 		(stroke
@@ -5562,6 +6021,16 @@
 			(type default)
 		)
 		(uuid "d9feb00f-2581-4a96-bcdd-31739fa647f4")
+	)
+	(wire
+		(pts
+			(xy 345.44 99.06) (xy 345.44 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da0467d2-d45c-42c1-af25-ac8db19feb41")
 	)
 	(wire
 		(pts
@@ -5815,6 +6284,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 109.22) (xy 358.14 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee329579-de2e-45ff-bc78-bfbc016f8a41")
+	)
+	(wire
+		(pts
 			(xy 330.2 102.87) (xy 330.2 105.41)
 		)
 		(stroke
@@ -5905,6 +6384,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 140.97) (xy 328.93 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f956a5e4-272a-40c6-9b17-3eb17b5c6edc")
+	)
+	(wire
+		(pts
 			(xy 182.88 104.14) (xy 173.99 104.14)
 		)
 		(stroke
@@ -5942,16 +6431,6 @@
 			(type default)
 		)
 		(uuid "ff19310c-54ef-4cf4-aa86-c24f4eb81035")
-	)
-	(wire
-		(pts
-			(xy 279.4 135.89) (xy 299.72 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff73e0a6-4c52-467b-8aaf-5cc1fb73f0a5")
 	)
 	(image
 		(at 67.31 58.42)
@@ -6764,6 +7243,21 @@
 	(rule_area
 		(polyline
 			(pts
+				(xy 280.67 149.86) (xy 262.89 149.86) (xy 262.89 125.73) (xy 280.67 125.73)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 265bf180-b18a-4d02-b32a-1fd1e44037c9)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
 				(xy 193.04 138.43) (xy 212.09 138.43) (xy 212.09 172.72) (xy 193.04 172.72)
 			)
 			(stroke
@@ -6774,6 +7268,37 @@
 				(type none)
 			)
 			(uuid d0ed1e98-83ed-4509-8cd7-5b538690e194)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 264.16 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf0c9ca4-cb01-422e-9d49-d7f1133cbaa3")
+		(property "Netclass" "SDMMC1"
+			(at 264.8585 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -82.55 -1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
 		)
 	)
 	(netclass_flag ""
@@ -8418,6 +8943,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 345.44 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50fc1aee-1685-4c32-9ebe-43ae2b0429c7")
+		(property "Reference" "NT1"
+			(at 346.71 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 346.71 97.7899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 345.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 345.44 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "334a88b3-a532-4dda-a40c-34edcfa4c8b4")
+		)
+		(pin "2"
+			(uuid "d760ac08-4884-4eb3-8ca2-62e121a751d9")
+		)
+		(instances
+			(project ""
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
+					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 110.49 232.41 0)
 		(unit 1)
@@ -9699,7 +10294,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 345.44 107.95 0)
+		(at 345.44 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9708,7 +10303,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b90f63d-35f9-4c7c-8d7f-bf21e22aeb7c")
 		(property "Reference" "#PWR0514"
-			(at 345.44 111.76 0)
+			(at 345.44 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9717,7 +10312,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 345.44 102.87 0)
+			(at 345.44 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9725,7 +10320,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 345.44 107.95 0)
+			(at 345.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9734,7 +10329,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 345.44 107.95 0)
+			(at 345.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9743,7 +10338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 345.44 107.95 0)
+			(at 345.44 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,6 +10519,195 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
 					(reference "R503")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PTVS3V3S1UR:PTVS3V3S1UR")
+		(at 351.79 109.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5161077-f31f-4778-aedd-6e3f816d92b3")
+		(property "Reference" "D4"
+			(at 351.79 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MSP3V3-M3/89A"
+			(at 356.87 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MicroSMP_KA"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "NXP Semiconductors"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" ""
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=eda"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "Rev. 3"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=snap"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "TVS Diode Single Uni-Dir 3.3V 400W Automotive 2-Pin SOD-123W T/R"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Nexperia"
+			(at 351.79 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "663f4243-bb0d-4d37-b4cd-b50734737485")
+		)
+		(pin "1"
+			(uuid "a9276db5-a132-48d2-8784-76f42f84ba18")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
+					(reference "D4")
 					(unit 1)
 				)
 			)
