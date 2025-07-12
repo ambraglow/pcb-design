@@ -14448,6 +14448,26 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 66.04) (xy 132.08 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0e48ce-a026-45fb-8053-489bd2d37989")
+	)
+	(wire
+		(pts
+			(xy 137.16 73.66) (xy 132.08 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c09b6f-8f3f-475e-91a1-a6fa8ecec995")
+	)
+	(wire
+		(pts
 			(xy 208.28 27.94) (xy 208.28 29.21)
 		)
 		(stroke
@@ -14648,6 +14668,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 78.74) (xy 132.08 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "543b570e-5188-426e-a611-110b4be7ea97")
+	)
+	(wire
+		(pts
 			(xy 72.39 73.66) (xy 83.82 73.66)
 		)
 		(stroke
@@ -14805,6 +14835,26 @@
 			(type default)
 		)
 		(uuid "731290ae-f8ac-4bb3-96e4-d07ebbefd970")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b027a79-4dee-41d5-a1e2-6b69ea3e9e31")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 132.08 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804507eb-f06b-42d3-baa3-3445c6c0cf5d")
 	)
 	(wire
 		(pts
@@ -15108,6 +15158,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 76.2) (xy 132.08 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9ad9a8-cb09-4b70-9061-af62e0d72f5d")
+	)
+	(wire
+		(pts
 			(xy 72.39 76.2) (xy 83.82 76.2)
 		)
 		(stroke
@@ -15266,6 +15326,28 @@
 		)
 		(uuid "f66aa4bc-49ea-467c-8f8b-d97fbd852cc9")
 	)
+	(global_label "DSI_CK_N"
+		(shape input)
+		(at 137.16 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "13429147-6944-4517-85d7-a55630078bd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.0352 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SYS_I2C4_SDA"
 		(shape input)
 		(at 62.23 167.64 180)
@@ -15288,6 +15370,28 @@
 			)
 		)
 	)
+	(global_label "DSI_CK_P"
+		(shape input)
+		(at 137.16 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "143baff0-7764-4cfc-9970-877183071535")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9747 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_D+"
 		(shape input)
 		(at 256.54 49.53 0)
@@ -15301,6 +15405,28 @@
 		(uuid "1876910e-4101-4ac8-bcc4-3766c0e2c9c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 267.1452 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DSI_D0_P"
+		(shape input)
+		(at 137.16 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "30d7d185-d776-4582-b962-d08613411135")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9142 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15398,6 +15524,28 @@
 			)
 		)
 	)
+	(global_label "DSI_D0_N"
+		(shape input)
+		(at 137.16 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5945daa5-938a-48ab-ab34-e4b84ef93e49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9747 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_CC1"
 		(shape input)
 		(at 149.86 44.45 180)
@@ -15438,6 +15586,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DSI_D2_P"
+		(shape input)
+		(at 137.16 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66cfadb0-5580-46b6-9542-a8639a96fa44")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9142 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -15552,6 +15722,28 @@
 			)
 		)
 	)
+	(global_label "DSI_D1_N"
+		(shape input)
+		(at 137.16 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f160cc67-6f1c-410b-b73a-61e124f4438d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.9747 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_CC2"
 		(shape input)
 		(at 105.41 154.94 0)
@@ -15587,6 +15779,21 @@
 				(type none)
 			)
 			(uuid 531fefb6-f482-43cd-a60d-7f777d0efbf1)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 134.62 62.23) (xy 151.13 62.23) (xy 151.13 82.55) (xy 134.62 82.55)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 86638ad2-2b4e-4dec-a756-22c64a8ddf27)
 		)
 	)
 	(rule_area
@@ -15664,6 +15871,37 @@
 					(italic yes)
 				)
 				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 135.89 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbe616d3-a010-4d5e-b362-d4e0905ec763")
+		(property "Netclass" "DSI_100ohm_DIFF"
+			(at 136.5885 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -50.8 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)

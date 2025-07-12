@@ -20842,8 +20842,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 147.32 91.44 90)
-		(mirror x)
+		(at 147.32 91.44 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20851,7 +20850,7 @@
 		(dnp no)
 		(uuid "c2ffd4bb-3065-4303-924e-7e9398da93fb")
 		(property "Reference" "C334"
-			(at 143.764 89.408 90)
+			(at 150.876 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20859,7 +20858,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 151.13 89.662 90)
+			(at 143.51 89.662 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20867,7 +20866,7 @@
 			)
 		)
 		(property "Footprint" "lib:C_0402_small"
-			(at 151.13 92.4052 0)
+			(at 143.51 92.4052 0)
 			(effects
 				(font
 					(size 1.27 1.27)

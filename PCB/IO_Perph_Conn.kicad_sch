@@ -20277,22 +20277,22 @@
 	)
 	(global_label "SYS_I2C4_SCL"
 		(shape input)
-		(at 60.96 109.22 180)
+		(at 118.11 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5a539fd2-4dd2-46fc-a178-2cdb8134c915")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 44.7306 109.22 0)
+			(at 134.3394 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
