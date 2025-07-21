@@ -15347,7 +15347,7 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 167.64 140.97) (xy 167.64 157.48) (xy 175.26 157.48) (xy 175.26 140.97)
+				(xy 294.9575 109.22) (xy 309.5625 109.22) (xy 309.5625 123.19) (xy 294.9575 123.19)
 			)
 			(stroke
 				(width 0)
@@ -15356,7 +15356,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 268cf6f6-b370-489e-b1db-497491fec84f)
+			(uuid 12fc90b6-6aa6-462b-b4d4-74954592227b)
 		)
 	)
 	(rule_area
@@ -15371,52 +15371,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 54fbb0ec-161e-430f-9cae-a9ec097292b6)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 281.94 109.22) (xy 293.37 109.22) (xy 293.37 167.64) (xy 281.305 167.64)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid b873525a-6945-401d-a606-9b7a191a8eb6)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 294.9575 109.22) (xy 309.5625 109.22) (xy 309.5625 123.19) (xy 294.9575 123.19)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid dff67f20-7bd2-45fd-8137-acb1a74d4b54)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 194.31 73.66) (xy 214.63 73.66) (xy 214.63 133.35) (xy 194.31 133.35)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid e0245981-40a3-4813-97e6-29c38499b235)
+			(uuid 43b78868-c3e0-4713-8dd4-387fb6a340da)
 		)
 	)
 	(rule_area
@@ -15431,7 +15386,52 @@
 			(fill
 				(type none)
 			)
-			(uuid f35c9e78-2b52-49bb-aa2d-d8c3d27d3457)
+			(uuid 694c4c73-7fa1-4761-98b5-dc835e1ddf11)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 194.31 73.66) (xy 214.63 73.66) (xy 214.63 133.35) (xy 194.31 133.35)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 91bf4357-7392-4207-adf3-48a67ac436bc)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 281.94 109.22) (xy 293.37 109.22) (xy 293.37 167.64) (xy 281.305 167.64)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid a66baba4-df24-4567-b1bf-73e9e416e181)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 167.64 140.97) (xy 167.64 157.48) (xy 175.26 157.48) (xy 175.26 140.97)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid ea054f9c-8f13-450a-b2d8-b1982a616a07)
 		)
 	)
 	(netclass_flag ""
