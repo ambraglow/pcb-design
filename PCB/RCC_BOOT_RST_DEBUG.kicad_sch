@@ -9782,12 +9782,6 @@
 		(uuid "09babf8c-7007-421d-bbdf-6f504541cd77")
 	)
 	(junction
-		(at 80.01 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13246864-92e2-4e71-b26d-1457eb9b3c84")
-	)
-	(junction
 		(at 302.26 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9872,12 +9866,6 @@
 		(uuid "476ce6c7-38f5-4fd0-a286-f26361d3705c")
 	)
 	(junction
-		(at 67.31 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5801dcaf-6ea4-4b80-aa88-1cf45f97438b")
-	)
-	(junction
 		(at 287.02 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9938,10 +9926,10 @@
 		(uuid "a39df4dc-35fe-4676-a507-e70de6afbb25")
 	)
 	(junction
-		(at 67.31 33.02)
+		(at 53.34 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b13dca31-2a1d-4da5-923f-df1655d62ab6")
+		(uuid "b53743f4-3b69-4569-af2a-1c692d905346")
 	)
 	(junction
 		(at 40.64 33.02)
@@ -10103,16 +10091,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 80.01 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114687a0-b3a1-430b-9da0-3c2a693aa206")
-	)
-	(wire
-		(pts
 			(xy 275.59 114.3) (xy 283.21 114.3)
 		)
 		(stroke
@@ -10130,6 +10108,16 @@
 			(type default)
 		)
 		(uuid "1810e085-0d18-40d1-aa3e-3a5c2980d12a")
+	)
+	(wire
+		(pts
+			(xy 53.34 33.02) (xy 59.69 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19172535-af72-4a40-8f4f-5ed88483e245")
 	)
 	(wire
 		(pts
@@ -10243,7 +10231,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 54.61) (xy 80.01 40.64)
+			(xy 53.34 54.61) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -10573,16 +10561,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 43.18) (xy 67.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "750b659e-2f55-4e32-98a7-0b721b147f0a")
-	)
-	(wire
-		(pts
 			(xy 43.18 54.61) (xy 45.72 54.61)
 		)
 		(stroke
@@ -10703,7 +10681,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 33.02) (xy 67.31 33.02)
+			(xy 43.18 33.02) (xy 53.34 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10853,7 +10831,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 54.61) (xy 67.31 54.61)
+			(xy 48.26 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -11073,16 +11051,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 33.02) (xy 80.01 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9f83ff1-2ca1-4311-9aec-f60a15883057")
-	)
-	(wire
-		(pts
 			(xy 40.64 20.32) (xy 40.64 22.86)
 		)
 		(stroke
@@ -11260,16 +11228,6 @@
 			(type default)
 		)
 		(uuid "e9ed5340-b7fe-4a8f-8665-3624c15ddcb8")
-	)
-	(wire
-		(pts
-			(xy 67.31 33.02) (xy 80.01 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb119f66-1b70-45f9-a53a-37a015309e2d")
 	)
 	(wire
 		(pts
@@ -11661,7 +11619,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 82.55 33.02 0)
+		(at 59.69 33.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11671,7 +11629,7 @@
 		)
 		(uuid "d95df927-dba1-4b16-9b4e-4d848aa59bc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 90.3128 33.02 0)
+			(at 67.4528 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14333,198 +14291,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PTVS3V3S1UR:PTVS3V3S1UR")
-		(at 67.31 38.1 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93e30e7b-bc65-4074-950f-9fc1da773d1f")
-		(property "Reference" "D3"
-			(at 64.77 36.8299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MSP3V3-M3/89A"
-			(at 64.77 39.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_MicroSMP_KA"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "NXP Semiconductors"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=eda"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "Rev. 3"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/PTVS3V3S1UR/NXP+Semiconductors/view-part/?ref=snap"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "TVS Diode Single Uni-Dir 3.3V 400W Automotive 2-Pin SOD-123W T/R"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Nexperia"
-			(at 67.31 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "df9ba2d8-4f63-4a3c-a854-b3316b5f28a9")
-		)
-		(pin "1"
-			(uuid "41e28087-f848-4fce-b7b4-2ebea6fde941")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 148.59 86.36 180)
 		(unit 1)
@@ -14736,7 +14502,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 36.83 0)
+		(at 53.34 36.83 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14745,7 +14511,7 @@
 		(dnp no)
 		(uuid "a1d2308d-055e-4eeb-9215-42369e66b299")
 		(property "Reference" "C701"
-			(at 75.438 35.306 0)
+			(at 48.768 35.306 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14753,7 +14519,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 74.93 37.592 0)
+			(at 48.26 37.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14761,7 +14527,7 @@
 			)
 		)
 		(property "Footprint" "lib:C_0402_small"
-			(at 80.9752 33.02 0)
+			(at 54.3052 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14770,7 +14536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 36.83 0)
+			(at 53.34 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14779,7 +14545,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 36.83 0)
+			(at 53.34 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14788,7 +14554,7 @@
 			)
 		)
 		(property "P/N" " GRM155R71C103KA01J"
-			(at 80.01 36.83 0)
+			(at 53.34 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14797,7 +14563,7 @@
 			)
 		)
 		(property "Mouser P/N" "81-GRM155R71C103KA1J"
-			(at 80.01 36.83 0)
+			(at 53.34 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
