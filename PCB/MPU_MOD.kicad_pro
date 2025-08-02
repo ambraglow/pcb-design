@@ -769,8 +769,7 @@
         "RCC_BOOT_RST_DEBUG"
       ],
       "3V3": [
-        "PWM",
-        "WIFI_BLE"
+        "PWM"
       ],
       "BAT_FUEL_ALARM": [
         "PWM"
@@ -833,8 +832,7 @@
         "DDR_AC",
         "HS_intrf",
         "PWM",
-        "RCC_BOOT_RST_DEBUG",
-        "WIFI_BLE"
+        "RCC_BOOT_RST_DEBUG"
       ],
       "I2S1_CK": [
         "WIFI_BLE"
@@ -1162,8 +1160,7 @@
       "VDD": [
         "HS_intrf",
         "PWM",
-        "RCC_BOOT_RST_DEBUG",
-        "WIFI_BLE"
+        "RCC_BOOT_RST_DEBUG"
       ],
       "VDDA": [
         "PWM"
