@@ -15833,21 +15833,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 62.23 80.01) (xy 62.23 66.04) (xy 48.26 66.04) (xy 48.26 80.01)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 95881d22-4502-4885-9471-9f1322552d5b)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 134.62 62.23) (xy 151.13 62.23) (xy 151.13 82.55) (xy 134.62 82.55)
 			)
 			(stroke
@@ -15857,7 +15842,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 9788a621-1b85-445e-87d9-43c5c43ad696)
+			(uuid 0bf2768d-ba34-49d2-bd45-3bbca0f0bdcb)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 62.23 80.01) (xy 62.23 66.04) (xy 48.26 66.04) (xy 48.26 80.01)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 1c9c3cee-4f00-4683-8456-1da50e6dfd91)
 		)
 	)
 	(rule_area
@@ -15872,7 +15872,7 @@
 			(fill
 				(type none)
 			)
-			(uuid fe811ae7-2031-4890-9045-5b71bb587b18)
+			(uuid 440fe251-86e1-4353-8230-77ae7a444508)
 		)
 	)
 	(netclass_flag ""

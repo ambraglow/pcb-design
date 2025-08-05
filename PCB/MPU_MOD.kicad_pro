@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.13
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -80,7 +80,8 @@
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_to_hole": "warning",
+        "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -495,87 +496,220 @@
         "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.12,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1019,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "100_ohm_diff",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 0,
         "schematic_color": "rgb(148, 255, 166)",
-        "track_width": 0.114
+        "track_width": 0.114,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DDR_AC",
         "pcb_color": "rgb(255, 45, 215)",
-        "priority": 10,
+        "priority": 1,
         "schematic_color": "rgb(255, 172, 24)",
-        "track_width": 0.1184
+        "track_width": 0.1184,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DDR_DQ",
         "pcb_color": "rgb(84, 255, 118)",
-        "priority": 11,
+        "priority": 2,
         "schematic_color": "rgb(255, 45, 64)",
-        "track_width": 0.1184
+        "track_width": 0.1184,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.12,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1184,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "DSI_100ohm_DIFF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "HS_intrf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "MPU_PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 3,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PWM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "RCC_BOOT_RST_DEBUG",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SDMMC1",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1184
+        "track_width": 0.1184,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "SDMMC2",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(88, 208, 255)",
-        "track_width": 0.1443
+        "track_width": 0.1443,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.12,
+        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1184,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 10,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       },
       {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "WIFI_BLE",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
+        "priority": 11,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -777,31 +911,13 @@
       "BAT_FUEL_RSDTIO": [
         "PWM"
       ],
-      "BT_DEV_WAKE": [
-        "WIFI_BLE"
-      ],
-      "BT_HOST_WAKE": [
-        "WIFI_BLE"
-      ],
-      "BT_REG_EN": [
-        "WIFI_BLE"
-      ],
       "CHRG_INT": [
-        "PWM"
-      ],
-      "CHRG_NPG": [
-        "PWM"
-      ],
-      "CHRG_OFF": [
         "PWM"
       ],
       "CHRG_OTG_ON": [
         "PWM"
       ],
-      "CHRG_PSEL": [
-        "PWM"
-      ],
-      "CHRG_STAT": [
+      "CHRG_PSEL_OUT": [
         "PWM"
       ],
       "DSI_CK_N": [
@@ -834,26 +950,11 @@
         "PWM",
         "RCC_BOOT_RST_DEBUG"
       ],
-      "I2S1_CK": [
-        "WIFI_BLE"
-      ],
-      "I2S1_SDI": [
-        "WIFI_BLE"
-      ],
-      "I2S1_SDO": [
-        "WIFI_BLE"
-      ],
-      "I2S1_WS": [
-        "WIFI_BLE"
-      ],
       "INTLDO": [
         "PWM"
       ],
       "INT_USB_ctrl": [
         "HS_intrf"
-      ],
-      "MCO1{slash}WIFI_LPO_IN": [
-        "WIFI_BLE"
       ],
       "NRST": [
         "PWM",
@@ -862,10 +963,10 @@
       "Net-(BT201--)": [
         "PWM"
       ],
-      "Net-(C206-Pad1)": [
+      "Net-(C232-Pad1)": [
         "PWM"
       ],
-      "Net-(C232-Pad1)": [
+      "Net-(C233-Pad2)": [
         "PWM"
       ],
       "Net-(D1-K)": [
@@ -876,9 +977,6 @@
       ],
       "Net-(J701-Pad11)": [
         "RCC_BOOT_RST_DEBUG"
-      ],
-      "Net-(J901-Pad1)": [
-        "WIFI_BLE"
       ],
       "Net-(Q1-D)": [
         "PWM"
@@ -893,33 +991,6 @@
         "PWM"
       ],
       "Net-(U201-VIN)": [
-        "PWM"
-      ],
-      "Net-(U202-BTST)": [
-        "PWM"
-      ],
-      "Net-(U202-ICHG)": [
-        "PWM"
-      ],
-      "Net-(U202-ILIM)": [
-        "PWM"
-      ],
-      "Net-(U202-PMID)": [
-        "PWM"
-      ],
-      "Net-(U202-STAT)": [
-        "PWM"
-      ],
-      "Net-(U202-VSET)": [
-        "PWM"
-      ],
-      "Net-(U202-~{CE})": [
-        "PWM"
-      ],
-      "Net-(U202-~{PG})": [
-        "PWM"
-      ],
-      "Net-(U203-INTLDO)": [
         "PWM"
       ],
       "Net-(U203-LDO1OUT)": [
@@ -961,24 +1032,6 @@
       "Net-(U3-STAT)": [
         "PWM"
       ],
-      "Net-(U301A-VBAT)": [
-        "MPU_PWR"
-      ],
-      "Net-(U301A-VDD1V2_DSI_PHY)": [
-        "MPU_PWR"
-      ],
-      "Net-(U301A-VDDA)": [
-        "MPU_PWR"
-      ],
-      "Net-(U301A-VDDA1V1_REG)": [
-        "MPU_PWR"
-      ],
-      "Net-(U301A-VDDA1V8_DSI)": [
-        "MPU_PWR"
-      ],
-      "Net-(U301A-VREF+)": [
-        "MPU_PWR"
-      ],
       "Net-(U301B-DDR_ZQ)": [
         "DDR_AC"
       ],
@@ -994,35 +1047,11 @@
       "Net-(U301E-NRST_CORE)": [
         "RCC_BOOT_RST_DEBUG"
       ],
-      "Net-(U301E-PDR_ON)": [
-        "RCC_BOOT_RST_DEBUG"
-      ],
-      "Net-(U301E-PDR_ON_CORE)": [
-        "RCC_BOOT_RST_DEBUG"
-      ],
       "Net-(U301E-PWR_LP)": [
         "RCC_BOOT_RST_DEBUG"
       ],
       "Net-(U301F-USB_RREF)": [
         "HS_intrf"
-      ],
-      "Net-(U501A-CLK)": [
-        "SDMMC2"
-      ],
-      "Net-(U901-SDIO_CLK)": [
-        "WIFI_BLE"
-      ],
-      "Net-(U901-SR_VLX)": [
-        "WIFI_BLE"
-      ],
-      "Net-(U901-STRAP_0)": [
-        "WIFI_BLE"
-      ],
-      "Net-(U901-VIN_LDO)": [
-        "WIFI_BLE"
-      ],
-      "Net-(U901-WL_ANT)": [
-        "WIFI_BLE"
       ],
       "Net-(Y701-Tri-State)": [
         "RCC_BOOT_RST_DEBUG"
@@ -1061,54 +1090,6 @@
       "SDMMC1_D3": [
         "SDMMC1"
       ],
-      "SDMMC2_CK": [
-        "SDMMC2"
-      ],
-      "SDMMC2_CMD": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D0": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D1": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D2": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D3": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D4": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D5": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D6": [
-        "SDMMC2"
-      ],
-      "SDMMC2_D7": [
-        "SDMMC2"
-      ],
-      "SDMMC3_CK": [
-        "WIFI_BLE"
-      ],
-      "SDMMC3_CMD": [
-        "WIFI_BLE"
-      ],
-      "SDMMC3_D0": [
-        "WIFI_BLE"
-      ],
-      "SDMMC3_D1": [
-        "WIFI_BLE"
-      ],
-      "SDMMC3_D2": [
-        "WIFI_BLE"
-      ],
-      "SDMMC3_D3": [
-        "WIFI_BLE"
-      ],
       "SYS_I2C4_SCL": [
         "HS_intrf",
         "PWM"
@@ -1122,18 +1103,6 @@
       ],
       "UART4_TX_STM": [
         "RCC_BOOT_RST_DEBUG"
-      ],
-      "UART8_CTS_STM": [
-        "WIFI_BLE"
-      ],
-      "UART8_RTS_STM": [
-        "WIFI_BLE"
-      ],
-      "UART8_RX_STM": [
-        "WIFI_BLE"
-      ],
-      "UART8_TX_STM": [
-        "WIFI_BLE"
       ],
       "USB_CC1": [
         "HS_intrf"
@@ -1186,12 +1155,6 @@
       "V_USB": [
         "HS_intrf",
         "PWM"
-      ],
-      "WL_HOST_WAKE": [
-        "WIFI_BLE"
-      ],
-      "WL_REG_EN": [
-        "WIFI_BLE"
       ],
       "unconnected-(J2-Pad1)": [
         "HS_intrf"
@@ -1328,156 +1291,6 @@
       "unconnected-(J701-Pad09)": [
         "RCC_BOOT_RST_DEBUG"
       ],
-      "unconnected-(J801-SBU1-PadA8)": [
-        "HS_intrf"
-      ],
-      "unconnected-(J801-SBU2-PadB8)": [
-        "HS_intrf"
-      ],
-      "unconnected-(R702-Pad1)": [
-        "RCC_BOOT_RST_DEBUG"
-      ],
-      "unconnected-(R703-Pad2)": [
-        "RCC_BOOT_RST_DEBUG"
-      ],
-      "unconnected-(U1-ANT-Pad41)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_DEV_WAKE-Pad39)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_HOST_WAKE-Pad38)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_PCM_CLK-Pad11)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_PCM_IN-Pad9)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_PCM_OUT-Pad10)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_PCM_SYNC-Pad8)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_REG_ON-Pad14)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_UART_CTS_N-Pad4)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_UART_RTS_N-Pad5)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_UART_RXD-Pad2)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-BT_UART_TXD-Pad3)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND(SR_PVSS)-Pad32)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND(SR_PVSS)__1-Pad33)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND-Pad1)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__1-Pad12)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__10-Pad45)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__11-Pad46)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__2-Pad19)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__3-Pad21)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__4-Pad29)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__5-Pad35)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__6-Pad40)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__7-Pad42)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__8-Pad43)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-GND__9-Pad44)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-LPO_IN(32KHZ)-Pad37)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-NC-Pad6)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-NC__1-Pad7)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-NC__2-Pad13)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-NC__3-Pad15)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-NC__4-Pad16)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-SDIO_CLK-Pad20)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-SDIO_CMD-Pad22)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-SDIO_DATA_0-Pad24)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-SDIO_DATA_1-Pad26)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-SDIO_DATA_2-Pad23)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-SDIO_DATA_3-Pad25)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-SR_VLX-Pad34)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-VBAT-Pad30)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-VIN_LDO-Pad31)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-VIO-Pad36)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-WL_GPIO_0_HOST_WAKE-Pad27)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-WL_GPIO_1-Pad18)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-WL_GPIO_2-Pad17)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U1-WL_REG_ON-Pad28)": [
-        "WIFI_BLE"
-      ],
       "unconnected-(U203-BSTOUT-Pad34)": [
         "PWM"
       ],
@@ -1496,125 +1309,11 @@
       "unconnected-(U3-QON-Pad12)": [
         "PWM"
       ],
-      "unconnected-(U301E-BYPASS_REG1V8-PadT15)": [
-        "RCC_BOOT_RST_DEBUG"
-      ],
       "unconnected-(U301E-NJTRST-PadD12)": [
         "RCC_BOOT_RST_DEBUG"
       ],
-      "unconnected-(U301F-DSIHOST_CKN-PadA14)": [
-        "HS_intrf"
-      ],
-      "unconnected-(U301F-DSIHOST_CKP-PadB14)": [
-        "HS_intrf"
-      ],
-      "unconnected-(U301F-DSIHOST_D0N-PadA13)": [
-        "HS_intrf"
-      ],
-      "unconnected-(U301F-DSIHOST_D0P-PadB13)": [
-        "HS_intrf"
-      ],
-      "unconnected-(U301F-DSIHOST_D1N-PadA15)": [
-        "HS_intrf"
-      ],
-      "unconnected-(U301F-DSIHOST_D1P-PadB15)": [
-        "HS_intrf"
-      ],
       "unconnected-(U301F-OTG_VBUS-PadU15)": [
         "HS_intrf"
-      ],
-      "unconnected-(U301F-USB_DM1-PadW14)": [
-        "HS_intrf"
-      ],
-      "unconnected-(U301F-USB_DP1-PadV14)": [
-        "HS_intrf"
-      ],
-      "unconnected-(U901-BT_GPIO_2-Pad18)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-BT_GPIO_3-Pad19)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-BT_GPIO_5-Pad20)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-GPIO_1-Pad45)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-JTAG_SEL-Pad53)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-JTAG_TCK{slash}SWCLK-Pad66)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-JTAG_TDI-Pad64)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-JTAG_TDO-Pad65)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-JTAG_TMS{slash}SWDIO-Pad67)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad15)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad35)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad36)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad37)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad38)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad39)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad40)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad44)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad58)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad59)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad60)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad61)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-NC-Pad62)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-RF_SW_CTRL_0-Pad26)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-RF_SW_CTRL_5-Pad25)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-TRST_L-Pad63)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-USB2_DM-Pad46)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-USB2_DP-Pad47)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-USB2_MONCDR-Pad48)": [
-        "WIFI_BLE"
-      ],
-      "unconnected-(U901-USB2_RREF-Pad50)": [
-        "WIFI_BLE"
       ]
     },
     "netclass_patterns": []
