@@ -1156,6 +1156,18 @@
         "HS_intrf",
         "PWM"
       ],
+      "unconnected-(BT1-PadN)": [
+        "PWM"
+      ],
+      "unconnected-(BT1-PadP)": [
+        "PWM"
+      ],
+      "unconnected-(BT2-PadN)": [
+        "PWM"
+      ],
+      "unconnected-(BT2-PadP)": [
+        "PWM"
+      ],
       "unconnected-(J2-Pad1)": [
         "HS_intrf"
       ],
