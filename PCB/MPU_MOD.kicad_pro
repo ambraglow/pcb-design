@@ -497,9 +497,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1019,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -515,9 +513,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -533,9 +529,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -551,9 +545,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1184,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -562,16 +554,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -580,16 +569,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -598,34 +584,28 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "PWM",
+        "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -634,16 +614,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -659,9 +636,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -677,9 +652,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1184,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -688,16 +661,13 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -706,7 +676,6 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 11,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -882,7 +851,7 @@
         "PWM"
       ],
       "/PWR/CH_REGN": [
-        "PWM"
+        "PWR"
       ],
       "/PWR/REGN": [
         "PWM"
@@ -906,7 +875,7 @@
         "RCC_BOOT_RST_DEBUG"
       ],
       "3V3": [
-        "PWM"
+        "PWR"
       ],
       "BAT_FUEL_ALARM": [
         "PWM"
@@ -924,13 +893,13 @@
         "PWM"
       ],
       "CH_EN": [
-        "PWM"
+        "PWR"
       ],
       "CH_INT": [
-        "PWM"
+        "PWR"
       ],
       "CH_PSEL": [
-        "PWM"
+        "PWR"
       ],
       "DSI_CK_N": [
         "DSI_100ohm_DIFF",
@@ -959,24 +928,21 @@
       "GND": [
         "DDR_AC",
         "HS_intrf",
-        "PWM",
+        "PWR",
         "RCC_BOOT_RST_DEBUG"
       ],
       "INTLDO": [
-        "PWM"
+        "PWR"
       ],
       "INT_USB_ctrl": [
         "HS_intrf"
       ],
       "NRST": [
-        "PWM",
+        "PWR",
         "RCC_BOOT_RST_DEBUG"
       ],
-      "Net-(BT2-+)": [
-        "PWM"
-      ],
       "Net-(BT2--)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(BT201--)": [
         "PWM"
@@ -991,7 +957,7 @@
         "PWM"
       ],
       "Net-(D10-K)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(D2-K)": [
         "PWM"
@@ -1003,43 +969,52 @@
         "RCC_BOOT_RST_DEBUG"
       ],
       "Net-(Q1-D)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(Q1-G)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(TP801-Pad1)": [
         "HS_intrf"
       ],
       "Net-(U15-BTST)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-CBSET)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-ILIM)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-MID)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-PMID)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-SNS)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-STAT)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-SW)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-TS)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U15-~{PG})": [
-        "PWM"
+        "PWR"
+      ],
+      "Net-(U16-EN)": [
+        "PWR"
+      ],
+      "Net-(U16-FB)": [
+        "PWR"
+      ],
+      "Net-(U16-SW)": [
+        "PWR"
       ],
       "Net-(U201-BATD{slash}CD)": [
         "PWM"
@@ -1078,13 +1053,13 @@
         "PWM"
       ],
       "Net-(U3-LDO1OUT)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U3-LDO2OUT)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U3-LDO6OUT)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U3-PG_N)": [
         "PWM"
@@ -1096,19 +1071,19 @@
         "PWM"
       ],
       "Net-(U3-VLX1)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U3-VLX2)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U3-VLX3)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U3-VLX4)": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U3-~{RST})": [
-        "PWM"
+        "PWR"
       ],
       "Net-(U301B-DDR_ZQ)": [
         "DDR_AC"
@@ -1165,17 +1140,17 @@
         "RCC_BOOT_RST_DEBUG"
       ],
       "PMIC_PA0_WKUP_INTR": [
-        "PWM"
+        "PWR"
       ],
       "PMIC_WAKEUP": [
-        "PWM"
+        "PWR"
       ],
       "PWR_ON": [
-        "PWM",
+        "PWR",
         "RCC_BOOT_RST_DEBUG"
       ],
       "PWR_SW_WAKE_UP": [
-        "PWM"
+        "PWR"
       ],
       "SDMMC1_CK": [
         "SDMMC1"
@@ -1196,10 +1171,10 @@
         "SDMMC1"
       ],
       "SYS_I2C4_SCL": [
-        "PWM"
+        "PWR"
       ],
       "SYS_I2C4_SDA": [
-        "PWM"
+        "PWR"
       ],
       "UART4_RX_STM": [
         "RCC_BOOT_RST_DEBUG"
@@ -1230,36 +1205,38 @@
         "USB"
       ],
       "VDD": [
-        "PWM",
+        "PWR",
         "RCC_BOOT_RST_DEBUG"
       ],
       "VDDA": [
-        "PWM"
+        "PWR"
       ],
       "VDD_CORE": [
-        "PWM"
+        "PWR"
       ],
       "VDD_DDR": [
-        "PWM"
+        "PWR"
       ],
       "VDD_USB": [
-        "PWM"
+        "PWR"
       ],
       "VIN": [
-        "PWM"
+        "PWR"
       ],
       "VIN_5V": [
-        "PWM"
+        "PWR"
       ],
       "VREF_DDR": [
-        "PWM"
+        "PWR"
       ],
       "VTT_DDR": [
-        "PWM"
+        "PWR"
+      ],
+      "V_BAT": [
+        "PWR"
       ],
       "V_USB": [
-        "HS_intrf",
-        "PWM"
+        "PWR"
       ],
       "unconnected-(BT1-PadN)": [
         "PWM"
@@ -1417,29 +1394,8 @@
       "unconnected-(J701-Pad09)": [
         "RCC_BOOT_RST_DEBUG"
       ],
-      "unconnected-(L8-Pad1)": [
-        "PWM"
-      ],
-      "unconnected-(L8-Pad2)": [
-        "PWM"
-      ],
-      "unconnected-(U16-EN-Pad5)": [
-        "PWM"
-      ],
-      "unconnected-(U16-FB-Pad6)": [
-        "PWM"
-      ],
-      "unconnected-(U16-GND-Pad3)": [
-        "PWM"
-      ],
       "unconnected-(U16-PG-Pad4)": [
-        "PWM"
-      ],
-      "unconnected-(U16-SW-Pad2)": [
-        "PWM"
-      ],
-      "unconnected-(U16-VIN-Pad1)": [
-        "PWM"
+        "PWR"
       ],
       "unconnected-(U203-BSTOUT-Pad34)": [
         "PWM"
@@ -1457,22 +1413,22 @@
         "PWM"
       ],
       "unconnected-(U3-BSTOUT-Pad34)": [
-        "PWM"
+        "PWR"
       ],
       "unconnected-(U3-QON-Pad12)": [
         "PWM"
       ],
       "unconnected-(U3-SWIN-Pad37)": [
-        "PWM"
+        "PWR"
       ],
       "unconnected-(U3-SWOUT-Pad38)": [
-        "PWM"
+        "PWR"
       ],
       "unconnected-(U3-VBUSOTG-Pad35)": [
-        "PWM"
+        "PWR"
       ],
       "unconnected-(U3-VLXBST-Pad33)": [
-        "PWM"
+        "PWR"
       ],
       "unconnected-(U301E-NJTRST-PadD12)": [
         "RCC_BOOT_RST_DEBUG"

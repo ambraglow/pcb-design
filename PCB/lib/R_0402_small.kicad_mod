@@ -1,10 +1,10 @@
-(footprint "C_0402_small"
+(footprint "R_0402_small_RES"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf),")
-	(tags "capacitor")
+	(descr "Res SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), ")
+	(tags "Res")
 	(property "Reference" "REF**"
 		(at 0 -1.16 0)
 		(layer "F.SilkS")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "C_0402_small"
+	(property "Value" "R_0402_small"
 		(at 0 1.16 0)
 		(layer "F.Fab")
 		(uuid "028d1b99-cba8-4407-a2a3-9db5f06b97c1")
