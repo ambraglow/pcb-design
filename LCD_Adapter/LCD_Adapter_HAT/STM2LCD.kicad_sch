@@ -5055,28 +5055,16 @@
 		(uuid "3703c47c-773b-4633-b11b-ea2bad72c422")
 	)
 	(junction
-		(at 149.86 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a709101-5940-4682-a9e5-1a36c0dd93ec")
-	)
-	(junction
 		(at 116.84 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41fa5291-b9dd-43ee-8be3-cc64b55a0daa")
 	)
 	(junction
-		(at 149.86 228.6)
+		(at 223.52 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "455df60a-406b-43e1-924a-4ca53b777962")
-	)
-	(junction
-		(at 149.86 208.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d67293b-4c53-4721-b25e-9d5d8708424b")
+		(uuid "44b59770-2312-4ab2-aebe-8f65f7efed85")
 	)
 	(junction
 		(at 351.79 118.11)
@@ -5113,12 +5101,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "818e0958-5f1d-4bc7-847d-c5fef77497b8")
-	)
-	(junction
-		(at 149.86 233.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "891fefd6-1377-4d7b-ae42-dc6ef2692051")
 	)
 	(junction
 		(at 142.24 44.45)
@@ -5217,22 +5199,10 @@
 		(uuid "e9f589bf-f6ff-4013-83e6-61bddcacaf2b")
 	)
 	(junction
-		(at 97.79 241.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eff2e682-cea5-4a7b-860d-7253658bf81e")
-	)
-	(junction
 		(at 198.12 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2b1d2db-0a3b-4542-9998-487bd5478958")
-	)
-	(junction
-		(at 97.79 223.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f31c8b36-5c40-4973-b48e-1b96d3312d43")
 	)
 	(no_connect
 		(at 201.93 69.85)
@@ -5250,13 +5220,13 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 198.12) (xy 149.86 198.12)
+			(xy 226.06 219.71) (xy 219.71 219.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "043d27b3-3199-4578-baef-1c0705945809")
+		(uuid "038751a6-df55-43bf-94b0-c79e762b3204")
 	)
 	(wire
 		(pts
@@ -5420,6 +5390,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 245.11) (xy 223.52 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eacc1d5-054d-43df-9644-09f4c37b2268")
+	)
+	(wire
+		(pts
 			(xy 85.09 91.44) (xy 85.09 124.46)
 		)
 		(stroke
@@ -5440,16 +5420,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 231.14) (xy 147.32 231.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21eb2f9a-b000-4dbf-b61c-7cdb1e58fbbb")
-	)
-	(wire
-		(pts
 			(xy 351.79 125.73) (xy 354.33 125.73)
 		)
 		(stroke
@@ -5457,16 +5427,6 @@
 			(type default)
 		)
 		(uuid "22fb8ecf-4796-4b1f-8612-7cc576fb75e7")
-	)
-	(wire
-		(pts
-			(xy 97.79 223.52) (xy 97.79 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "245f98f3-70fc-4f1f-b63c-e9848ebfde0e")
 	)
 	(wire
 		(pts
@@ -5550,7 +5510,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 210.82) (xy 172.72 210.82)
+			(xy 233.68 219.71) (xy 243.84 219.71)
 		)
 		(stroke
 			(width 0)
@@ -5577,16 +5537,6 @@
 			(type default)
 		)
 		(uuid "3497516e-a5b4-4ba3-ab52-1d5694421d7e")
-	)
-	(wire
-		(pts
-			(xy 149.86 233.68) (xy 149.86 242.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36a4ea5a-e596-4edc-98fc-60dfcb975bb4")
 	)
 	(wire
 		(pts
@@ -5620,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 238.76) (xy 71.12 238.76)
+			(xy 233.68 227.33) (xy 243.84 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5647,16 +5597,6 @@
 			(type default)
 		)
 		(uuid "44111101-5b2e-4bb0-bbab-606d6579dab3")
-	)
-	(wire
-		(pts
-			(xy 149.86 198.12) (xy 149.86 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "447c579e-cb3d-4e34-b7fb-c1e9d80715f5")
 	)
 	(wire
 		(pts
@@ -5700,16 +5640,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 215.9) (xy 149.86 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b81d5c6-8f87-4826-885e-71cdc45e4003")
-	)
-	(wire
-		(pts
 			(xy 53.34 78.74) (xy 31.75 78.74)
 		)
 		(stroke
@@ -5727,16 +5657,6 @@
 			(type default)
 		)
 		(uuid "4cf6e48d-97f8-4655-bb14-27974fa4912a")
-	)
-	(wire
-		(pts
-			(xy 147.32 218.44) (xy 154.94 218.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d4099e1-c88d-4450-b30f-c5dbce4fa532")
 	)
 	(wire
 		(pts
@@ -5780,26 +5700,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 203.2) (xy 99.06 203.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52efc793-1035-4ec0-b5da-46e1fedff1a1")
-	)
-	(wire
-		(pts
-			(xy 147.32 210.82) (xy 154.94 210.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52fe6b4e-1de2-49ef-9fa2-67ce616561c6")
-	)
-	(wire
-		(pts
 			(xy 125.73 171.45) (xy 125.73 172.72)
 		)
 		(stroke
@@ -5827,16 +5727,6 @@
 			(type default)
 		)
 		(uuid "5a019cc4-83e3-4bf7-b5df-c218cfa99348")
-	)
-	(wire
-		(pts
-			(xy 88.9 233.68) (xy 99.06 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b8fede3-8816-4a1d-a373-ae9dba819fbc")
 	)
 	(wire
 		(pts
@@ -5890,16 +5780,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 228.6) (xy 149.86 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623114fa-9dd8-4453-a229-15b1ba0b7e45")
-	)
-	(wire
-		(pts
 			(xy 312.42 138.43) (xy 313.69 138.43)
 		)
 		(stroke
@@ -5917,16 +5797,6 @@
 			(type default)
 		)
 		(uuid "684dde02-03cc-46f1-b0d5-8fd1d6497e32")
-	)
-	(wire
-		(pts
-			(xy 97.79 241.3) (xy 97.79 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6898388b-4742-4676-b51a-2dde06368020")
 	)
 	(wire
 		(pts
@@ -5970,26 +5840,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 208.28) (xy 149.86 208.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f8a71de-8533-4a1f-a856-cd757d2f7f57")
-	)
-	(wire
-		(pts
-			(xy 97.79 241.3) (xy 99.06 241.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70ee0a49-c608-4d3a-834e-c64c98b25168")
-	)
-	(wire
-		(pts
 			(xy 220.98 93.98) (xy 207.01 93.98)
 		)
 		(stroke
@@ -6010,16 +5860,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 238.76) (xy 99.06 238.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72daba7a-51ba-4fbe-b98d-7e74aff5d86e")
-	)
-	(wire
-		(pts
 			(xy 147.32 59.69) (xy 147.32 60.96)
 		)
 		(stroke
@@ -6027,6 +5867,16 @@
 			(type default)
 		)
 		(uuid "730ab4fd-2ac8-4bea-83c8-3af81a1f5dc0")
+	)
+	(wire
+		(pts
+			(xy 223.52 240.03) (xy 227.33 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "738918a1-28e9-4d10-9d4d-796db18195da")
 	)
 	(wire
 		(pts
@@ -6060,6 +5910,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 222.25) (xy 219.71 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75feebc2-935c-47a9-8a73-1e79d535ee36")
+	)
+	(wire
+		(pts
 			(xy 125.73 44.45) (xy 123.19 44.45)
 		)
 		(stroke
@@ -6070,7 +5930,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 233.68) (xy 72.39 233.68)
+			(xy 234.95 245.11) (xy 243.84 245.11)
 		)
 		(stroke
 			(width 0)
@@ -6180,7 +6040,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 231.14) (xy 172.72 231.14)
+			(xy 234.95 240.03) (xy 245.11 240.03)
 		)
 		(stroke
 			(width 0)
@@ -6227,16 +6087,6 @@
 			(type default)
 		)
 		(uuid "8a754acb-e0af-4dbb-bb44-38ed63b370e8")
-	)
-	(wire
-		(pts
-			(xy 149.86 215.9) (xy 149.86 228.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c518e2b-80a1-4094-b4f9-c95204323137")
 	)
 	(wire
 		(pts
@@ -6307,16 +6157,6 @@
 			(type default)
 		)
 		(uuid "9885281e-2b4f-443b-bc72-90ef7b73823d")
-	)
-	(wire
-		(pts
-			(xy 97.79 223.52) (xy 99.06 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "994bde44-c6a9-43d6-a050-e9a297242fa9")
 	)
 	(wire
 		(pts
@@ -6437,6 +6277,16 @@
 			(type default)
 		)
 		(uuid "a7676084-a0f5-47f9-9d6a-4d5b4a852880")
+	)
+	(wire
+		(pts
+			(xy 219.71 240.03) (xy 223.52 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86043b0-0961-4d21-a5a3-4f122ce50d80")
 	)
 	(wire
 		(pts
@@ -6590,6 +6440,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 245.11) (xy 223.52 245.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc8c159b-9029-445c-9729-ff296f15672a")
+	)
+	(wire
+		(pts
 			(xy 105.41 135.89) (xy 116.84 135.89)
 		)
 		(stroke
@@ -6617,16 +6477,6 @@
 			(type default)
 		)
 		(uuid "c1719fe1-e7bf-4e1f-803b-77d0f9740de5")
-	)
-	(wire
-		(pts
-			(xy 149.86 208.28) (xy 149.86 215.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32ba80e-ffee-4123-bf3f-59f6bc3cf975")
 	)
 	(wire
 		(pts
@@ -6680,16 +6530,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 233.68) (xy 149.86 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cfaa602d-4fe4-43e7-9934-a12120901b3d")
-	)
-	(wire
-		(pts
 			(xy 55.88 80.01) (xy 55.88 81.28)
 		)
 		(stroke
@@ -6697,16 +6537,6 @@
 			(type default)
 		)
 		(uuid "d08e65f4-be0d-47a9-9b78-e69f3d867c12")
-	)
-	(wire
-		(pts
-			(xy 149.86 228.6) (xy 149.86 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c8f3af-130e-43cb-a8ee-722ec8557250")
 	)
 	(wire
 		(pts
@@ -6820,6 +6650,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 227.33) (xy 226.06 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d5d6a8-7d1e-404c-918d-c0584ae06127")
+	)
+	(wire
+		(pts
 			(xy 43.18 58.42) (xy 31.75 58.42)
 		)
 		(stroke
@@ -6837,16 +6677,6 @@
 			(type default)
 		)
 		(uuid "e640669b-1112-46f1-aad0-e46013818897")
-	)
-	(wire
-		(pts
-			(xy 97.79 203.2) (xy 97.79 223.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e767f501-adde-49b9-8efa-416e84269f13")
 	)
 	(wire
 		(pts
@@ -6970,7 +6800,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 218.44) (xy 172.72 218.44)
+			(xy 233.68 222.25) (xy 243.84 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8222,7 +8052,7 @@
 	)
 	(global_label "PWM"
 		(shape input)
-		(at 172.72 231.14 0)
+		(at 245.11 240.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8232,7 +8062,7 @@
 		)
 		(uuid "2b54879b-ba12-435f-bc4e-a075b951a0f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 179.878 231.14 0)
+			(at 252.268 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8376,22 +8206,22 @@
 	)
 	(global_label "TE"
 		(shape input)
-		(at 71.12 238.76 180)
+		(at 243.84 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "5f8ccfd4-8114-45cc-b537-08ff6a60e833")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.0182 238.76 0)
+			(at 248.9418 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8486,22 +8316,22 @@
 	)
 	(global_label "DC_LED_PWM"
 		(shape input)
-		(at 72.39 233.68 180)
+		(at 243.84 245.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "8f4dba7f-ec8f-4057-9e39-220a39bcf3f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 57.3097 233.68 0)
+			(at 258.9203 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8552,7 +8382,7 @@
 	)
 	(global_label "TP_RES_STM_SIDE"
 		(shape input)
-		(at 172.72 218.44 0)
+		(at 243.84 222.25 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8562,7 +8392,7 @@
 		)
 		(uuid "a5e40502-0adf-4975-93a1-04b5459c5ac6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.3359 218.44 0)
+			(at 263.4559 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +8558,7 @@
 	)
 	(global_label "LCM_ID"
 		(shape input)
-		(at 172.72 210.82 0)
+		(at 243.84 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8738,7 +8568,7 @@
 		)
 		(uuid "ebd1d715-850f-49c6-b39f-dd1713567f8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.2971 210.82 0)
+			(at 253.4171 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8966,6 +8796,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 317.5 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3df37257-a359-4597-8f98-b06940d4d81c")
 		)
@@ -9111,6 +9004,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 341.63 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4e3f303d-75b5-4a11-b2d6-936015756b81")
 		)
@@ -9187,6 +9143,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 125.73 167.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df9b5ca6-c4c9-4c58-9f03-79bec7ca2fb8")
 		)
@@ -9247,6 +9266,78 @@
 		)
 		(property "Description" "Resistor"
 			(at 214.63 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 214.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 214.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 214.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 214.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 214.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 214.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 214.63 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 214.63 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9336,7 +9427,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 210.82 90)
+		(at 229.87 219.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9344,7 +9435,7 @@
 		(dnp yes)
 		(uuid "11eba4be-55da-4afa-8fd1-6ba020f942f6")
 		(property "Reference" "R19"
-			(at 153.67 209.296 90)
+			(at 224.79 218.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9352,7 +9443,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 163.068 209.296 90)
+			(at 234.188 218.186 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9360,7 +9451,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 212.598 90)
+			(at 229.87 221.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9460,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 210.82 0)
+			(at 229.87 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9469,79 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 210.82 0)
+			(at 229.87 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 229.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 229.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 229.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 229.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 229.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 229.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 229.87 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 229.87 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9585,6 +9748,78 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 92.71 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10bf3906-9d46-4fc5-95e6-8592999a4194")
 		)
@@ -9736,7 +9971,7 @@
 		(at 290.83 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9786,6 +10021,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 290.83 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc08de04-e863-451b-906b-3d4941b337bf")
 		)
@@ -9803,7 +10101,7 @@
 		(at 304.8 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9845,6 +10143,69 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 304.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 304.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 304.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 304.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 304.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 304.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 304.8 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 304.8 236.22 0)
 			(effects
 				(font
@@ -9932,7 +10293,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 238.76 270)
+		(at 229.87 227.33 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9941,7 +10302,7 @@
 		(dnp yes)
 		(uuid "425ffdd8-86ab-46c4-9cc8-98a2092dab91")
 		(property "Reference" "R2"
-			(at 90.17 237.236 90)
+			(at 224.79 228.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9949,7 +10310,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 80.772 237.236 90)
+			(at 234.188 228.854 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9957,7 +10318,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 240.538 90)
+			(at 229.87 225.552 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9966,7 +10327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 238.76 0)
+			(at 229.87 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9975,7 +10336,79 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 238.76 0)
+			(at 229.87 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 229.87 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 229.87 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 229.87 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 229.87 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 229.87 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 229.87 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 229.87 227.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 229.87 227.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10130,72 +10563,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 97.79 243.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "503c7fd8-4fc6-43e1-a2a7-2bbd7862002a")
-		(property "Reference" "#PWR033"
-			(at 97.79 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e147a8df-4aa5-40bf-b748-42420df5de57")
-		)
-		(instances
-			(project "LCD_Adapter"
-				(path "/90bbffcf-f1b0-4966-a1ef-be58cceb8518/93bb586c-6b7f-48d9-8b6e-ad2450eb207a"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 341.63 190.5 0)
 		(unit 1)
@@ -10313,6 +10680,69 @@
 			)
 		)
 		(property "LCSC#" "C21190"
+			(at 203.2 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 203.2 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 203.2 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 203.2 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 203.2 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 203.2 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 203.2 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 203.2 43.18 90)
 			(effects
 				(font
@@ -10592,6 +11022,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 105.41 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f754fbbf-f5e5-44b7-87e8-5b98ef19db6e")
 		)
@@ -10668,6 +11161,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 198.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 198.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 198.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 198.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 198.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 198.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 198.12 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad645098-537b-4915-8b67-1ced31e16ada")
 		)
@@ -10736,6 +11292,69 @@
 			)
 		)
 		(property "LCSC#" "C23138"
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 63.5 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 63.5 91.44 90)
 			(effects
 				(font
@@ -10879,6 +11498,69 @@
 		)
 		(property "LCSC#" "C1623"
 			(at 332.74 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 332.74 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 332.74 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,6 +11716,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 114.3 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "6e02d9ef-6215-4597-8b72-f3cd677a1415")
 		)
@@ -11108,6 +11853,69 @@
 			)
 		)
 		(property "LCSC#" "C1525"
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 355.6 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 355.6 173.99 0)
 			(effects
 				(font
@@ -11333,6 +12141,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 207.01 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "d6e721d3-cab7-4a94-b04e-aaa86f1bb404")
 		)
@@ -11425,6 +12296,69 @@
 			)
 		)
 		(property "LCSC#" " C506793"
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 364.49 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 364.49 102.87 0)
 			(effects
 				(font
@@ -11609,7 +12543,7 @@
 		(at 340.36 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11651,6 +12585,69 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 340.36 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 340.36 236.22 0)
 			(effects
 				(font
@@ -11742,7 +12739,7 @@
 		(at 392.43 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -11784,6 +12781,69 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 392.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 392.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 392.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 392.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 392.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 392.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 392.43 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 392.43 234.95 0)
 			(effects
 				(font
@@ -11999,6 +13059,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 341.63 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78a06417-e777-41b8-a50c-ea3fdd0c3fe8")
 		)
@@ -12016,15 +13139,15 @@
 	)
 	(symbol
 		(lib_id "RPi_Hat:RPi_GPIO")
-		(at 104.14 193.04 0)
+		(at 90.17 193.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "92a52978-001f-4c90-8bda-1253a7d72d42")
 		(property "Reference" "J3"
-			(at 123.19 185.42 0)
+			(at 109.22 185.42 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12032,7 +13155,7 @@
 			)
 		)
 		(property "Value" "RPi_GPIO"
-			(at 123.19 187.96 0)
+			(at 109.22 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12040,7 +13163,7 @@
 			)
 		)
 		(property "Footprint" "lib:RPI_Hat_B+"
-			(at 107.95 187.96 0)
+			(at 93.98 187.96 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12049,7 +13172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 193.04 0)
+			(at 90.17 193.04 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12057,7 +13180,70 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 193.04 0)
+			(at 90.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 90.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 90.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 90.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 90.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 90.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 90.17 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 90.17 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12189,72 +13375,6 @@
 			(project "LCD_Adapter"
 				(path "/90bbffcf-f1b0-4966-a1ef-be58cceb8518/93bb586c-6b7f-48d9-8b6e-ad2450eb207a"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 242.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "97022271-a8c1-4aee-9330-80c1949b9692")
-		(property "Reference" "#PWR034"
-			(at 149.86 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 242.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "648ae8c0-7c8a-41d3-8133-b1506eea1fd5")
-		)
-		(instances
-			(project "LCD_Adapter"
-				(path "/90bbffcf-f1b0-4966-a1ef-be58cceb8518/93bb586c-6b7f-48d9-8b6e-ad2450eb207a"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -12464,6 +13584,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 21.59 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "12"
 			(uuid "a305639a-cea1-44bb-a9d3-1643a495a943")
 		)
@@ -12603,6 +13786,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 355.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 355.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 355.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 355.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 355.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 355.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 355.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b07a4d38-de52-4307-be35-ccac2e6bf91d")
 		)
@@ -12663,6 +13909,78 @@
 		)
 		(property "Description" "Resistor"
 			(at 63.5 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 63.5 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 63.5 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 63.5 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 63.5 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 63.5 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 63.5 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 63.5 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 63.5 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12738,6 +14056,69 @@
 			)
 		)
 		(property "LCSC#" "C25804"
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 137.16 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 137.16 147.32 90)
 			(effects
 				(font
@@ -12879,6 +14260,78 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 214.63 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6c10d7c2-cba8-4da1-8c4e-d8aec73e8878")
 		)
@@ -12896,7 +14349,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 218.44 90)
+		(at 229.87 222.25 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12904,7 +14357,7 @@
 		(dnp yes)
 		(uuid "ad83588d-b136-4a20-a678-b834766f646a")
 		(property "Reference" "R28"
-			(at 153.67 216.916 90)
+			(at 224.79 220.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12912,7 +14365,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 163.068 216.916 90)
+			(at 234.188 220.726 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12920,7 +14373,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 220.218 90)
+			(at 229.87 224.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12929,7 +14382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 218.44 0)
+			(at 229.87 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12938,7 +14391,79 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 218.44 0)
+			(at 229.87 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 229.87 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 229.87 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 229.87 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 229.87 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 229.87 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 229.87 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 229.87 222.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 229.87 222.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13031,7 +14556,7 @@
 		(at 96.52 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13081,6 +14606,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 96.52 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b280f6e0-0887-4575-969a-44a8544d3bec")
 		)
@@ -13098,7 +14686,7 @@
 		(at 369.57 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13140,6 +14728,69 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 369.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 369.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 369.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 369.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 369.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 369.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 369.57 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 369.57 236.22 0)
 			(effects
 				(font
@@ -13286,6 +14937,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 193.04 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fef90399-ee54-4a08-9c8b-4cf0bffcfa9a")
 		)
@@ -13354,6 +15068,69 @@
 			)
 		)
 		(property "LCSC#" "C25804"
+			(at 116.84 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 116.84 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 116.84 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 116.84 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 116.84 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 116.84 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 116.84 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
 			(at 116.84 109.22 90)
 			(effects
 				(font
@@ -13568,6 +15345,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 110.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 110.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 110.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 110.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 110.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 110.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 110.49 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d064ef1d-4d85-4311-9ddf-9d16b1dccefd")
 		)
@@ -13650,6 +15490,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 134.62 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cbf54070-5548-41b0-be60-b6c334278a31")
 		)
@@ -13724,6 +15627,69 @@
 		)
 		(property "LCSC#" "C1623"
 			(at 129.54 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 129.54 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 129.54 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13929,6 +15895,78 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 63.5 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a15ebae-a5db-4dea-a458-0467e812e8bd")
 		)
@@ -14127,6 +16165,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 165.1 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "42f71368-8acf-4ba8-accd-86e42e2b447c")
 		)
@@ -14213,6 +16314,78 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 92.71 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1f727f12-4910-4b1e-a7e8-22281da8632a")
 		)
@@ -14230,7 +16403,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 158.75 231.14 90)
+		(at 231.14 240.03 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14238,7 +16411,7 @@
 		(dnp yes)
 		(uuid "f86fbec7-2c4b-4203-be9e-df6c05966e08")
 		(property "Reference" "R10"
-			(at 153.67 229.616 90)
+			(at 226.06 238.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14246,7 +16419,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 163.068 229.616 90)
+			(at 235.458 238.506 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14254,7 +16427,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 158.75 232.918 90)
+			(at 231.14 241.808 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14263,7 +16436,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 158.75 231.14 0)
+			(at 231.14 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14272,7 +16445,79 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 158.75 231.14 0)
+			(at 231.14 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 231.14 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 231.14 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 231.14 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 231.14 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 231.14 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 231.14 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 231.14 240.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 231.14 240.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14300,7 +16545,7 @@
 		(at 354.33 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14350,6 +16595,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 354.33 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 354.33 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 354.33 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 354.33 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 354.33 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 354.33 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 354.33 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e0a58802-f3f0-4b06-b148-1d971eeca484")
 		)
@@ -14364,7 +16672,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 85.09 233.68 270)
+		(at 231.14 245.11 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14373,7 +16681,7 @@
 		(dnp yes)
 		(uuid "fb9a4453-624f-4b40-9a8c-19f12333b302")
 		(property "Reference" "R20"
-			(at 90.17 232.156 90)
+			(at 226.06 246.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14381,7 +16689,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 80.772 232.156 90)
+			(at 235.458 246.634 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14389,7 +16697,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 85.09 235.458 90)
+			(at 231.14 243.332 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14398,7 +16706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 233.68 0)
+			(at 231.14 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14407,7 +16715,79 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 85.09 233.68 0)
+			(at 231.14 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 231.14 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 231.14 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 231.14 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 231.14 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 231.14 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 231.14 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 231.14 245.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C21189"
+			(at 231.14 245.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14493,6 +16873,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 304.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 304.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 304.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 304.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 304.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 304.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 304.8 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d71a8e3-0877-4b2a-9574-55b20c231be8")
 		)
@@ -14569,6 +17012,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4196867-2eba-4c8b-9570-d54aaf730162")
 		)
@@ -14589,7 +17095,7 @@
 		(at 322.58 236.22 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14639,6 +17145,69 @@
 				(hide yes)
 			)
 		)
+		(property "AVAILABILITY" ""
+			(at 322.58 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 322.58 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 322.58 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 322.58 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 322.58 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 322.58 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 322.58 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "92e0a53c-96b9-4799-bf59-88eae10a9091")
 		)
@@ -14653,7 +17222,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_02x20_Odd_Even")
-		(at 224.79 187.96 0)
+		(at 212.09 224.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14662,7 +17231,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffce1cc4-8615-4a20-bdb0-8c60a4a36169")
 		(property "Reference" "J4"
-			(at 226.06 158.75 0)
+			(at 213.36 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14670,7 +17239,7 @@
 			)
 		)
 		(property "Value" "Conn_02x20_Odd_Even"
-			(at 226.06 161.29 0)
+			(at 213.36 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14678,7 +17247,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical_SMD"
-			(at 224.79 187.96 0)
+			(at 212.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14687,7 +17256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 187.96 0)
+			(at 212.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14696,7 +17265,79 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x20, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 224.79 187.96 0)
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" ""
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "COMMENT" ""
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DESCRIPTION" ""
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "EU_ROHS_COMPLIANCE" ""
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" ""
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PRICE" ""
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "TE_PURCHASE_URL" ""
+			(at 212.09 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2685092"
+			(at 212.09 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

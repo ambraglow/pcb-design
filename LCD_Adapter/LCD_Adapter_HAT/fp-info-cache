@@ -1,4 +1,4 @@
-26038914601236723
+26040674070843799
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104045,8 +104045,8 @@ RPI_Hat_B+
 
 
 0
-40
-40
+0
+0
 lib
 SOP50P310X90-8N
 
@@ -104054,6 +104054,13 @@ SOP50P310X90-8N
 0
 8
 8
+lib
+SOT23
+<b>SOT-23</b>
+
+0
+3
+3
 lib
 TE_1-1734248-5
 
