@@ -8173,21 +8173,6 @@
 			(uuid 1c9c3cee-4f00-4683-8456-1da50e6dfd91)
 		)
 	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 12.7 12.7) (xy 284.48 12.7) (xy 284.48 165.1) (xy 175.26 165.1) (xy 175.26 196.85) (xy 12.7 196.85)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 440fe251-86e1-4353-8230-77ae7a444508)
-		)
-	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
@@ -8216,38 +8201,6 @@
 					(size 1.27 1.27)
 					(italic yes)
 				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 22.86 12.7 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b9e9c784-b0a5-467a-9b50-bfe20d1053c0")
-		(property "Netclass" "HS_intrf"
-			(at 23.5585 15.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at 383.54 -48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
 			)
 		)
 	)

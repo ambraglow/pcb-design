@@ -560,8 +560,8 @@
       },
       {
         "bus_width": 12,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.12,
+        "diff_pair_width": 0.1019,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -653,7 +653,7 @@
       {
         "bus_width": 12,
         "diff_pair_gap": 0.12,
-        "diff_pair_width": 0.1184,
+        "diff_pair_width": 0.1252,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -902,32 +902,25 @@
         "PWR"
       ],
       "DSI_CK_N": [
-        "DSI_100ohm_DIFF",
-        "HS_intrf"
+        "DSI_100ohm_DIFF"
       ],
       "DSI_CK_P": [
-        "DSI_100ohm_DIFF",
-        "HS_intrf"
+        "DSI_100ohm_DIFF"
       ],
       "DSI_D0_N": [
-        "DSI_100ohm_DIFF",
-        "HS_intrf"
+        "DSI_100ohm_DIFF"
       ],
       "DSI_D0_P": [
-        "DSI_100ohm_DIFF",
-        "HS_intrf"
+        "DSI_100ohm_DIFF"
       ],
       "DSI_D1_N": [
-        "DSI_100ohm_DIFF",
-        "HS_intrf"
+        "DSI_100ohm_DIFF"
       ],
       "DSI_D2_P": [
-        "DSI_100ohm_DIFF",
-        "HS_intrf"
+        "DSI_100ohm_DIFF"
       ],
       "GND": [
         "DDR_AC",
-        "HS_intrf",
         "PWR",
         "RCC_BOOT_RST_DEBUG"
       ],
@@ -1189,19 +1182,15 @@
         "HS_intrf"
       ],
       "USB_D+": [
-        "HS_intrf",
         "USB"
       ],
       "USB_D-": [
-        "HS_intrf",
         "USB"
       ],
       "USB_M_D+": [
-        "HS_intrf",
         "USB"
       ],
       "USB_M_D-": [
-        "HS_intrf",
         "USB"
       ],
       "VDD": [

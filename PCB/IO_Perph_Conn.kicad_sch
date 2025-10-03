@@ -561,399 +561,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EVQ-9P701P:EVQ-9P701P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "EVQ-9P701P"
-				(at -7.62 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EVQ-9P701P:SW_EVQ-9P701P"
-				(at -0.762 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Panasonic Electronic Components"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=eda"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=snap"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "EVQ-9P701P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "EVQ-9P701P_0_0"
-				(polyline
-					(pts
-						(xy -2.921 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0.254) (xy 1.778 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.921 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2D"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "EVQ-9P701P_0_1"
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "NX2012SA-32.768K-STD-MUB-1:NX2012SA-32.768K-STD-MUB-1"
 			(pin_names
 				(offset 1.016)
@@ -16922,6 +16529,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 114.3) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54aafa52-cfef-43b7-b1f1-702d99c9bb4b")
+	)
+	(wire
+		(pts
 			(xy 229.87 167.64) (xy 229.87 171.45)
 		)
 		(stroke
@@ -17059,6 +16676,16 @@
 			(type default)
 		)
 		(uuid "db612b27-e0fa-4ebb-bb31-67406c029260")
+	)
+	(wire
+		(pts
+			(xy 100.33 111.76) (xy 105.41 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee95925-fa91-433f-93e7-db1aa9d081ad")
 	)
 	(wire
 		(pts
@@ -20650,7 +20277,7 @@
 				)
 				(uuid "088703c9-8df9-4a2e-8504-ee18f178c4c4")
 			)
-			(table_cell ""
+			(table_cell "I2C1_SDA"
 				(exclude_from_sim no)
 				(at 330.2 198.12 0)
 				(size 24.13 2.54)
@@ -20667,7 +20294,7 @@
 				)
 				(uuid "973c5f16-fe7b-4cbe-862d-0c1c3d7984b4")
 			)
-			(table_cell ""
+			(table_cell "PB7"
 				(exclude_from_sim no)
 				(at 354.33 198.12 0)
 				(size 24.13 2.54)
@@ -20684,7 +20311,7 @@
 				)
 				(uuid "358a9d03-d19b-48e5-9917-414f32b2ae27")
 			)
-			(table_cell ""
+			(table_cell "B5"
 				(exclude_from_sim no)
 				(at 378.46 198.12 0)
 				(size 24.13 2.54)
@@ -20701,7 +20328,7 @@
 				)
 				(uuid "b2757e15-958e-4c3a-b113-115e69c9ddc3")
 			)
-			(table_cell ""
+			(table_cell "I2C1_SCL"
 				(exclude_from_sim no)
 				(at 330.2 200.66 0)
 				(size 24.13 2.54)
@@ -20718,7 +20345,7 @@
 				)
 				(uuid "cdaab02f-3540-4d35-b00b-b9f88ed90a47")
 			)
-			(table_cell ""
+			(table_cell "PB8"
 				(exclude_from_sim no)
 				(at 354.33 200.66 0)
 				(size 24.13 2.54)
@@ -20735,7 +20362,7 @@
 				)
 				(uuid "22c35c2b-337e-483a-aa60-33091bf1256e")
 			)
-			(table_cell ""
+			(table_cell "W6"
 				(exclude_from_sim no)
 				(at 378.46 200.66 0)
 				(size 24.13 2.54)
@@ -21389,6 +21016,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SDA"
+		(shape input)
+		(at 100.33 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17eb5472-ac05-40c4-a93a-38f71c30f8e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.5153 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SYS_I2C6_SDA"
 		(shape input)
 		(at 105.41 81.28 180)
@@ -21655,7 +21304,7 @@
 	)
 	(global_label "uSD_DETECT"
 		(shape input)
-		(at 105.41 111.76 180)
+		(at 80.01 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21665,7 +21314,7 @@
 		)
 		(uuid "6501ed89-5a28-4042-932b-2fbe81639377")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 91.0555 111.76 0)
+			(at 65.6555 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22423,6 +22072,28 @@
 			)
 		)
 	)
+	(global_label "I2C1_SCL"
+		(shape input)
+		(at 100.33 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea10dfa5-648e-4e56-b761-ad1a4ec9beea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.5758 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDMMC1_D2"
 		(shape input)
 		(at 162.56 76.2 0)
@@ -23126,209 +22797,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EVQ-9P701P:EVQ-9P701P")
-		(at 68.58 259.08 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5842e14f-fdb0-415f-b793-ba28fb65acd6")
-		(property "Reference" "S3"
-			(at 64.77 257.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EVQ-9P701P"
-			(at 64.77 260.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib:SW_EVQ-9P701P"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic Electronic Components"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EVQ-9P701P"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 68.58 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2B"
-			(uuid "a4104d5b-2b62-4a54-962c-e4c145217b30")
-		)
-		(pin "1A"
-			(uuid "4cb87154-edc9-4d4e-8964-b564fd7dae16")
-		)
-		(pin "2A"
-			(uuid "ea12b980-be39-4fe8-8fb3-eba279d01692")
-		)
-		(pin "1B"
-			(uuid "4654bcd9-8e7b-4738-aa7e-bb24cf353010")
-		)
-		(pin "2C"
-			(uuid "98ef2b40-07be-44e2-97e5-3ce60b2ba92f")
-		)
-		(pin "2D"
-			(uuid "5ea4dba3-9aeb-4150-a2e8-8c5047959b3c")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/fb3927f9-2e38-40e3-962e-323526569853"
-					(reference "S3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+36V")
 		(at 219.71 167.64 0)
 		(unit 1)
@@ -23947,412 +23415,6 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/fb3927f9-2e38-40e3-962e-323526569853"
 					(reference "TP19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVQ-9P701P:EVQ-9P701P")
-		(at 90.17 260.35 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "948e689c-b2a1-42d4-b34c-27471e1e93d2")
-		(property "Reference" "S4"
-			(at 86.36 259.0799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EVQ-9P701P"
-			(at 86.36 261.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib:SW_EVQ-9P701P"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic Electronic Components"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EVQ-9P701P"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 90.17 260.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2B"
-			(uuid "a29b3e2d-dd97-4689-92af-7db36cab9085")
-		)
-		(pin "1A"
-			(uuid "815725a3-b9fc-48c4-a52d-ef5629703829")
-		)
-		(pin "2A"
-			(uuid "9cc4146f-249a-453e-afce-7511b74dbcec")
-		)
-		(pin "1B"
-			(uuid "b791b309-1233-4dcf-8959-96553de41cc3")
-		)
-		(pin "2C"
-			(uuid "87a12845-4f23-48fe-beab-d12a0a0f4c1d")
-		)
-		(pin "2D"
-			(uuid "b47df92b-379c-4241-8614-980bfa988b33")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/fb3927f9-2e38-40e3-962e-323526569853"
-					(reference "S4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVQ-9P701P:EVQ-9P701P")
-		(at 46.99 259.08 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9c2e4569-5987-4456-8dbb-473aa1100838")
-		(property "Reference" "S2"
-			(at 43.18 257.8099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EVQ-9P701P"
-			(at 43.18 260.3499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib:SW_EVQ-9P701P"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic Electronic Components"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EVQ-9P701P"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 46.99 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2B"
-			(uuid "d72e250a-cad1-4b3e-8545-f765a565781f")
-		)
-		(pin "1A"
-			(uuid "58a2faed-fde3-4d01-b9f6-e4abdbdb3b7e")
-		)
-		(pin "2A"
-			(uuid "90d07927-3029-4f3b-9871-af1fbb261c24")
-		)
-		(pin "1B"
-			(uuid "62ff6fb1-9b3d-4306-ac9c-2c4c43fc7f8b")
-		)
-		(pin "2C"
-			(uuid "44269cb5-6f65-4bc9-9a44-ae7cb84f1111")
-		)
-		(pin "2D"
-			(uuid "46bce645-5f38-4468-ae7a-5d22974cf8e3")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/fb3927f9-2e38-40e3-962e-323526569853"
-					(reference "S2")
 					(unit 1)
 				)
 			)
