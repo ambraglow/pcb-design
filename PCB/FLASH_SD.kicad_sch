@@ -1760,6 +1760,12 @@
 		(uuid "6ce8ab4b-924b-4857-88c4-e3d9f662b2f4")
 	)
 	(junction
+		(at 251.46 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76c7fd1d-2b50-44fe-9aa5-6f26d349fdcd")
+	)
+	(junction
 		(at 322.58 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1923,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 153.67) (xy 283.21 153.67)
+			(xy 233.68 153.67) (xy 251.46 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2050,6 +2056,16 @@
 			(type default)
 		)
 		(uuid "4b49fd73-d92c-46e6-bd25-69fb028afaf6")
+	)
+	(wire
+		(pts
+			(xy 251.46 153.67) (xy 294.64 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bff39db-2ac0-4549-afe6-f8cba22aea9b")
 	)
 	(wire
 		(pts
@@ -2273,6 +2289,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 148.59) (xy 251.46 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af17722e-6155-4ab1-97fb-a74b240193c3")
+	)
+	(wire
+		(pts
 			(xy 331.47 135.89) (xy 347.98 135.89)
 		)
 		(stroke
@@ -2413,6 +2439,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 139.7) (xy 251.46 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1d1c08-8b3e-4b62-b861-12e7c8cd9c40")
+	)
+	(wire
+		(pts
 			(xy 330.2 102.87) (xy 322.58 102.87)
 		)
 		(stroke
@@ -2420,16 +2456,6 @@
 			(type default)
 		)
 		(uuid "e31a7b05-a47d-4558-a27f-198a1bb07b73")
-	)
-	(wire
-		(pts
-			(xy 290.83 153.67) (xy 294.64 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e449e551-19fc-40de-bd22-bc7027333553")
 	)
 	(wire
 		(pts
@@ -2567,7 +2593,7 @@
 	)
 	(global_label "uSD_DETECT"
 		(shape input)
-		(at 279.4 153.67 180)
+		(at 233.68 153.67 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2577,7 +2603,7 @@
 		)
 		(uuid "4a716d0c-4781-4573-9da1-db7972a9f3bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.0455 153.67 0)
+			(at 219.3255 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,82 +3155,6 @@
 			(project ""
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 287.02 153.67 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "40d6711c-9ff1-4e9a-af4e-3182f447c3a6")
-		(property "Reference" "R47"
-			(at 282.702 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 290.576 151.892 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 287.02 155.448 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 287.02 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 287.02 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 287.02 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5aac1416-cb49-4e36-a927-0509528c8e16")
-		)
-		(pin "2"
-			(uuid "337202c3-5ab1-480b-b68f-d8a2a61085c4")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
-					(reference "R47")
 					(unit 1)
 				)
 			)
@@ -3911,7 +3861,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "47k"
+		(property "Value" "10k"
 			(at 312.42 110.4899 0)
 			(effects
 				(font
@@ -4052,6 +4002,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 251.46 144.78 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be7a2350-389b-41c1-b38b-06fe549cf2f9")
+		(property "Reference" "R72"
+			(at 248.92 143.5099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "47k"
+			(at 248.92 146.0499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 249.682 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser P/N" ""
+			(at 251.46 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f68ad7e8-e098-4026-a67a-8ece165d3d27")
+		)
+		(pin "2"
+			(uuid "40b08c68-80c9-4f23-ae59-11395f4233c4")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 351.79 115.57 270)
 		(unit 1)
@@ -4131,6 +4161,72 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
 					(reference "C109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 251.46 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9fa804a-cd07-4356-892c-57b019edc985")
+		(property "Reference" "#PWR0156"
+			(at 251.46 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3"
+			(at 251.46 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d009e160-9a54-4201-8614-a5408e3ffb8b")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/ec317a3c-922b-4ac6-af1a-f2cdb70bc7c5"
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)

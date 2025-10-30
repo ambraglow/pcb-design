@@ -31,11 +31,24 @@
 
 
 
-# SDMMC2
+# SDMMC1
 # CLK to DAT0-7 or CMD or RST_N mismatch < 250 mil (6.3mm)
 # Mismatch within DAT0~DAT7 < 250 mil (6.3mm)
 
 (rule "target length and skew"
-      (condition "A.hasNetclass('SDMMC2')")
+      (condition "A.hasNetclass('SDMMC1')")
       (constraint length (min 27mm) (opt 28mm) (max 28mm))
       (constraint skew (max 0.1mm)))
+
+
+#DSI
+(rule "target length and skew"
+      (condition "A.hasNetclass('DSI_100ohm_DIFF')")
+      (constraint length (min 34mm) (opt 34.5mm) (max 35mm))
+      (constraint skew (max 0.1mm)))
+
+
+#USB
+(rule "target length and skew"
+      (condition "A.hasNetclass('USB')")
+      (constraint skew (max 0.5mm)))

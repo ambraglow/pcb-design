@@ -1,4 +1,4 @@
-26107202302097115
+26108964069162706
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104124,6 +104124,13 @@ ESDA7P120-1U1M
 0
 2
 2
+lib
+DRB8_1P75X1P5
+
+TPS61042DRBR 
+0
+9
+9
 lib
 FBGA100_ISI
 

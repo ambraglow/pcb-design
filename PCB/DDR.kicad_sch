@@ -10638,12 +10638,6 @@
 		(uuid "e50215e3-f135-40ce-b5a5-5dc5952422ef")
 	)
 	(junction
-		(at 336.55 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ec2bd0f7-c51a-4878-86fc-010d9abf8379")
-	)
-	(junction
 		(at 267.97 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10714,6 +10708,14 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd74eb1b-c968-4756-935b-c6f03fcf2c25")
+	)
+	(no_connect
+		(at 146.05 110.49)
+		(uuid "7584485b-c596-46fd-a026-24e345d4c84b")
+	)
+	(no_connect
+		(at 215.9 132.08)
+		(uuid "7707bc2e-8635-40ce-beef-dcd5ac91337e")
 	)
 	(no_connect
 		(at 146.05 148.59)
@@ -11019,7 +11021,7 @@
 	)
 	(wire
 		(pts
-			(xy 336.55 146.05) (xy 336.55 149.86)
+			(xy 336.55 146.05) (xy 336.55 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11516,16 +11518,6 @@
 			(type default)
 		)
 		(uuid "3c5ca12b-28be-4b25-bfb1-7576ffb53c87")
-	)
-	(wire
-		(pts
-			(xy 331.47 149.86) (xy 336.55 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d1b048c-aa3b-4383-8e67-38d448a17ed1")
 	)
 	(wire
 		(pts
@@ -12139,16 +12131,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 132.08) (xy 215.9 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dcce7e5-3122-4eed-93b9-e6faf6576895")
-	)
-	(wire
-		(pts
 			(xy 266.7 81.28) (xy 271.78 81.28)
 		)
 		(stroke
@@ -12446,16 +12428,6 @@
 			(type default)
 		)
 		(uuid "842b657a-5af6-4400-a59f-30c096d7eb92")
-	)
-	(wire
-		(pts
-			(xy 336.55 149.86) (xy 336.55 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86086e46-49bf-4b37-983c-0704094b3d49")
 	)
 	(wire
 		(pts
@@ -13449,16 +13421,6 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 149.86) (xy 323.85 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d56e4093-b229-4299-8dce-045af019a800")
-	)
-	(wire
-		(pts
 			(xy 267.97 50.8) (xy 267.97 53.34)
 		)
 		(stroke
@@ -14086,16 +14048,6 @@
 			(justify right bottom)
 		)
 		(uuid "04f07e71-70a2-4247-87d3-2f3177c20bca")
-	)
-	(label "DDR_A15"
-		(at 201.93 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "05dad59f-3ac8-40cf-aa84-a8a655200173")
 	)
 	(label "DDR_DQ10"
 		(at 63.5 123.19 180)
@@ -14747,16 +14699,6 @@
 		)
 		(uuid "9140465d-919b-4e2b-a45a-f255a262c81e")
 	)
-	(label "DDR_A15"
-		(at 146.05 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93280bfc-26bd-442c-90d5-e72b9918a510")
-	)
 	(label "DDR_ODT"
 		(at 318.77 170.18 180)
 		(effects
@@ -14936,16 +14878,6 @@
 			(justify right bottom)
 		)
 		(uuid "b8c34060-0884-40be-9e8a-6c7fc85cd8e4")
-	)
-	(label "DDR_A15"
-		(at 318.77 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "baa55c34-e77a-45c8-8c7c-8ca11273bf0a")
 	)
 	(label "DDR_A6"
 		(at 146.05 87.63 0)
@@ -18481,82 +18413,6 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/69214b2b-0971-43f8-ac76-9e3bbab8a034"
 					(reference "#PWR0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 327.66 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f026b44-c2c8-4708-905d-c018d6799740")
-		(property "Reference" "R37"
-			(at 323.342 147.828 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "56"
-			(at 331.724 148.844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 327.66 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 327.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 327.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" ""
-			(at 327.66 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "62daec61-3621-4285-b73f-60708da6c4da")
-		)
-		(pin "2"
-			(uuid "de516e46-4c11-4862-8475-0c7ca94ca14f")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/69214b2b-0971-43f8-ac76-9e3bbab8a034"
-					(reference "R37")
 					(unit 1)
 				)
 			)
