@@ -58,7 +58,108 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|100975000|64335000|5ebcbc26-aabe-4f86-960d-4ce2e07df5cb|408fb150-8400-4eca-89bb-9582df2567d4",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|100975000|64335000|5ebcbc26-aabe-4f86-960d-4ce2e07df5cb|e081f71d-c3cf-4e73-93b7-2ecde75e435b",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|101325000|64335000|408fb150-8400-4eca-89bb-9582df2567d4|e081f71d-c3cf-4e73-93b7-2ecde75e435b",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|102975000|64215000|b62a2602-ed9b-419f-a87d-e7730ed5ba2b|5e4b5ff4-7e7a-4571-975e-00e739dc380b",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|102975000|64215000|b62a2602-ed9b-419f-a87d-e7730ed5ba2b|efb65572-2fdf-4eac-8ecc-8ee48df2b70f",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|103325000|64215000|5e4b5ff4-7e7a-4571-975e-00e739dc380b|efb65572-2fdf-4eac-8ecc-8ee48df2b70f",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|98975000|64325000|41900200-336d-46f4-b56f-5e36bc5aee77|3e1ec43f-22d9-4c98-b9bb-d051e76573a6",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|98975000|64325000|41900200-336d-46f4-b56f-5e36bc5aee77|751bdf98-8568-44fa-b1c5-f5df885647a3",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "clearance|99325000|64325000|3e1ec43f-22d9-4c98-b9bb-d051e76573a6|751bdf98-8568-44fa-b1c5-f5df885647a3",
+          "0.1 still ok. keep 0.1016 for other places"
+        ],
+        [
+          "via_dangling|101700000|94930000|90225b19-3133-4978-85ca-78037a90ab6d|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|102430000|96460000|4dc88d03-c165-4a2d-97aa-5d47f9d8a3a8|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|102460000|97310000|ba490ac9-53ab-41c8-a855-e91cd9a80c28|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|102460000|98090000|deaeb5cb-8329-4f3f-bd82-1f80bbb560a4|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|102470000|100520000|928d7260-6239-4b23-8b79-f31e9b6b9173|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|103270000|103700000|c3fd5678-1848-423f-ad56-2ea9eb7315d6|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|103270000|92520000|aaec8392-708c-4d7b-8142-4c185aa4d25e|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|104040000|102940000|953f47c1-d474-4e82-904e-8b8e20a941f9|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|104050000|102090000|690e1248-9272-405a-8e20-82f92909cce0|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|104070000|101320000|3b8ac083-a19e-476d-838b-6d6c772c301b|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|104070000|91720000|a05e963e-36b6-4769-b49d-93e8a8b110c9|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|91250000|98100000|32d52428-1e99-4bf9-b858-c0c2cb36a623|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|92060000|99680000|d00d5491-53d2-440d-92f3-d47f12197289|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|92080000|102900000|cb675d38-c2f2-4868-97f6-9d173dbd6372|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|92080000|98120000|eaa4fde0-793d-416d-a9c0-d5d9a1659f99|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|92090000|100490000|459e9897-11ac-4344-ac83-90afd86ac7f4|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -138,7 +239,7 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1016,
-        "min_via_annular_width": 0.1,
+        "min_via_annular_width": 0.05,
         "min_via_diameter": 0.3,
         "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
@@ -642,7 +743,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "SDMMC2",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(247, 255, 121)",
         "priority": 9,
         "schematic_color": "rgb(88, 208, 255)",
         "track_width": 0.1443,

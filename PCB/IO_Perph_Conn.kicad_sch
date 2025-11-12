@@ -16321,6 +16321,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Need R calc\n"
+		(exclude_from_sim no)
+		(at 58.42 71.882 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52ce7411-aa41-49e0-aacb-01dff3a25b7d")
+	)
 	(junction
 		(at 78.74 83.82)
 		(diameter 0)
@@ -16356,6 +16366,146 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc3277d7-1969-45b2-b14b-91be461bdf82")
+	)
+	(no_connect
+		(at 105.41 106.68)
+		(uuid "0a50d3c7-8a2a-47ad-a4db-b123f6b77283")
+	)
+	(no_connect
+		(at 271.78 85.09)
+		(uuid "12fbe428-e994-489b-b0b9-57141590ff36")
+	)
+	(no_connect
+		(at 162.56 129.54)
+		(uuid "15697d45-6263-44aa-8fb0-551f0db48da9")
+	)
+	(no_connect
+		(at 162.56 101.6)
+		(uuid "1b324f91-2538-47ab-a416-7aebfa94758a")
+	)
+	(no_connect
+		(at 162.56 116.84)
+		(uuid "20517536-3253-4b96-ab59-1b7e22016401")
+	)
+	(no_connect
+		(at 162.56 68.58)
+		(uuid "367c5413-c7e1-4d69-985f-1e370ccf4e92")
+	)
+	(no_connect
+		(at 105.41 66.04)
+		(uuid "40b316c9-d4a1-49f6-a059-1f7e5558d87b")
+	)
+	(no_connect
+		(at 105.41 58.42)
+		(uuid "4168542b-d74e-4db2-af13-83a03faadb32")
+	)
+	(no_connect
+		(at 105.41 76.2)
+		(uuid "4c82f379-b56c-4908-b503-0a6108502b5e")
+	)
+	(no_connect
+		(at 271.78 100.33)
+		(uuid "4f2adf4e-9fc5-496a-b7b3-d5d17fe503fe")
+	)
+	(no_connect
+		(at 227.33 85.09)
+		(uuid "5e5db022-7469-4dfd-9b35-4bc9b6599f29")
+	)
+	(no_connect
+		(at 227.33 90.17)
+		(uuid "5fb58728-9e4e-4e59-980b-07c89b3542a6")
+	)
+	(no_connect
+		(at 271.78 92.71)
+		(uuid "64921dbb-731b-45c3-aa15-62343cb1d1c3")
+	)
+	(no_connect
+		(at 162.56 55.88)
+		(uuid "64a7f85e-21e8-4e8c-99c0-9816d84dd3e5")
+	)
+	(no_connect
+		(at 162.56 114.3)
+		(uuid "6bdfca70-0ab2-4ceb-86f2-478d41a3c976")
+	)
+	(no_connect
+		(at 162.56 50.8)
+		(uuid "7c39027a-1106-47a9-a238-056010530e2b")
+	)
+	(no_connect
+		(at 162.56 132.08)
+		(uuid "7ce70ff1-c8b3-4b9f-a7a1-807e02ecb139")
+	)
+	(no_connect
+		(at 227.33 102.87)
+		(uuid "8e6c797a-118c-4a05-a726-93796e993b5d")
+	)
+	(no_connect
+		(at 227.33 105.41)
+		(uuid "93c757ab-c9f7-421e-807b-dc5f2f5e2692")
+	)
+	(no_connect
+		(at 227.33 87.63)
+		(uuid "aa4b8cf4-4f08-4e32-b28a-c3a3fe910e41")
+	)
+	(no_connect
+		(at 162.56 119.38)
+		(uuid "ac26c8f8-1878-46be-a762-890c81cc2480")
+	)
+	(no_connect
+		(at 105.41 96.52)
+		(uuid "aee96100-266f-427b-9f86-abf7b3289e5b")
+	)
+	(no_connect
+		(at 162.56 109.22)
+		(uuid "ba402b44-17a5-4958-ad51-1ae888360175")
+	)
+	(no_connect
+		(at 271.78 107.95)
+		(uuid "c04886c7-56df-4c0d-8d87-85666af021ba")
+	)
+	(no_connect
+		(at 105.41 119.38)
+		(uuid "cb4d3c51-4c7f-469f-bf62-dcaeaa60d7ad")
+	)
+	(no_connect
+		(at 271.78 97.79)
+		(uuid "d461efd0-6c32-4358-bb14-d8eb7fa953fe")
+	)
+	(no_connect
+		(at 162.56 66.04)
+		(uuid "d8dc17f7-7196-453e-b96b-f7002cd95ee7")
+	)
+	(no_connect
+		(at 105.41 93.98)
+		(uuid "da961cfb-ce1d-4765-a21e-e3d1d8a199cf")
+	)
+	(no_connect
+		(at 227.33 97.79)
+		(uuid "e0681dc1-6a62-4b94-ae22-5d1fd9f79d9b")
+	)
+	(no_connect
+		(at 162.56 58.42)
+		(uuid "e09525b5-d29b-4012-b0dd-34b9ba2d5636")
+	)
+	(no_connect
+		(at 227.33 107.95)
+		(uuid "e81c9392-5106-4263-8577-78c160a2bfa0")
+	)
+	(no_connect
+		(at 271.78 87.63)
+		(uuid "e9d28ccf-fdc8-4718-bd39-759a663e80c2")
+	)
+	(no_connect
+		(at 227.33 80.01)
+		(uuid "f4b39e47-da07-43fa-9fa4-8d628a8aabaa")
+	)
+	(no_connect
+		(at 271.78 113.03)
+		(uuid "f97a9a2b-18fe-4487-9cd3-7b0fd5e92302")
+	)
+	(no_connect
+		(at 271.78 102.87)
+		(uuid "ffaa506c-463b-4c0a-ab1b-580ffd6532f7")
 	)
 	(wire
 		(pts
@@ -16406,16 +16556,6 @@
 			(type default)
 		)
 		(uuid "062a3ec7-9750-4dc4-9dc5-9311c92f9790")
-	)
-	(wire
-		(pts
-			(xy 97.79 50.8) (xy 105.41 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0aab6e0a-9bea-40da-ab3c-56b5ea68a2d2")
 	)
 	(wire
 		(pts
@@ -20887,6 +21027,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -20909,6 +21050,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21085,6 +21227,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21107,6 +21250,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify left)
 		)
@@ -21129,6 +21273,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21151,6 +21296,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21168,7 +21314,7 @@
 	)
 	(global_label "uSD_DETECT"
 		(shape input)
-		(at 227.33 90.17 180)
+		(at 227.33 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21178,7 +21324,7 @@
 		)
 		(uuid "3d44aedf-585f-4ca6-b372-8ec2e371fdf9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.9755 90.17 0)
+			(at 212.9755 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21195,6 +21341,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21217,6 +21364,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21239,6 +21387,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify left)
 		)
@@ -21261,6 +21410,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify left)
 		)
@@ -21342,28 +21492,6 @@
 			)
 		)
 	)
-	(global_label "uSD_DETECT"
-		(shape input)
-		(at 80.01 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6501ed89-5a28-4042-932b-2fbe81639377")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6555 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART7_RX_STM"
 		(shape input)
 		(at 227.33 92.71 180)
@@ -21371,6 +21499,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21393,6 +21522,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify left)
 		)
@@ -21410,7 +21540,7 @@
 	)
 	(global_label "PMIC_PA0_WKUP_INTR"
 		(shape input)
-		(at 97.79 50.8 180)
+		(at 105.41 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21420,7 +21550,7 @@
 		)
 		(uuid "6bd61395-e0a4-45c8-9238-4357412cb9ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.2429 50.8 0)
+			(at 81.8629 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21437,6 +21567,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21459,6 +21590,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21525,6 +21657,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify left)
 		)
@@ -21635,6 +21768,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21679,6 +21813,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21701,6 +21836,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21745,6 +21881,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21767,6 +21904,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21789,6 +21927,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21811,6 +21950,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21833,6 +21973,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify left)
 		)
@@ -21855,6 +21996,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify left)
 		)
@@ -21877,6 +22019,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21943,6 +22086,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21965,6 +22109,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -21987,6 +22132,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -22163,6 +22309,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)

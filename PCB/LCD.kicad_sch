@@ -2291,15 +2291,16 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "DON`T USE  INTERNAL PULL UP OR PD "
+	(text "NEED REVIEW"
 		(exclude_from_sim no)
-		(at 227.584 129.286 0)
+		(at 88.646 99.822 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.54 2.54)
+				(color 255 41 58 1)
 			)
 		)
-		(uuid "be14a972-829f-4a0b-9563-5cf5b90664c1")
+		(uuid "b8fd9624-ec8a-4588-beae-1ab6c56ef7e6")
 	)
 	(text "The traces use the **VDD_DDR** reference plane."
 		(exclude_from_sim no)

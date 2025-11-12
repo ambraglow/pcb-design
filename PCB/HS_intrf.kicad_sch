@@ -7974,6 +7974,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
@@ -8106,6 +8107,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 42 55 255 1)
 			)
 			(justify right)
 		)
