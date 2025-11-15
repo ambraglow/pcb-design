@@ -96,6 +96,38 @@
           "0.1 still ok. keep 0.1016 for other places"
         ],
         [
+          "courtyards_overlap|73965000|97360000|57c3a1e7-a8a5-483c-8c74-e9da857dd850|8e5b417f-7933-47ed-bf15-6bd33813dfe5",
+          ""
+        ],
+        [
+          "courtyards_overlap|92172400|68870000|333db43c-ceeb-45b5-a803-7c492edc3bbf|cc668c9e-b0ae-44b2-afb9-9d240db65c1b",
+          ""
+        ],
+        [
+          "courtyards_overlap|92172400|70690000|407d8606-435b-4ec1-9e41-19aed6ae81bd|cc668c9e-b0ae-44b2-afb9-9d240db65c1b",
+          ""
+        ],
+        [
+          "courtyards_overlap|92172400|72510000|872a5cf0-f12c-4b57-b881-775915926664|cc668c9e-b0ae-44b2-afb9-9d240db65c1b",
+          ""
+        ],
+        [
+          "courtyards_overlap|92172400|74742828|69f5b2c3-bee6-4da1-aec5-d3cb0e55796d|cc668c9e-b0ae-44b2-afb9-9d240db65c1b",
+          ""
+        ],
+        [
+          "hole_to_hole|91250000|89330000|1c1b0be6-d824-4e17-8afe-c804ed130f6e|8bb12130-1619-4d0d-bf8b-c0a3000ad5f0",
+          "DDR 0.2"
+        ],
+        [
+          "hole_to_hole|93060000|88280000|14aeb620-b9d6-4079-b8a1-79cfae20ab40|71fe64e1-0f8c-440c-8e6a-d2c2122ce826",
+          "DDR 0.2"
+        ],
+        [
+          "hole_to_hole|94080000|88240000|71fe64e1-0f8c-440c-8e6a-d2c2122ce826|aeb6d947-1e84-4575-a337-74018614506b",
+          ""
+        ],
+        [
           "via_dangling|101700000|94930000|90225b19-3133-4978-85ca-78037a90ab6d|00000000-0000-0000-0000-000000000000",
           "RESERVED"
         ],
@@ -137,6 +169,10 @@
         ],
         [
           "via_dangling|104070000|91720000|a05e963e-36b6-4769-b49d-93e8a8b110c9|00000000-0000-0000-0000-000000000000",
+          "RESERVED"
+        ],
+        [
+          "via_dangling|70245000|104435000|5008b3bc-16a0-499d-a777-f314cefa7e9f|00000000-0000-0000-0000-000000000000",
           "RESERVED"
         ],
         [
@@ -230,12 +266,12 @@
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.15,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.22,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
+        "min_text_height": 0.7,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1016,
@@ -1083,6 +1119,9 @@
       "Net-(Q1-G)": [
         "PWR"
       ],
+      "Net-(Q201-D)": [
+        "PWR"
+      ],
       "Net-(TP801-Pad1)": [
         "HS_intrf"
       ],
@@ -1131,8 +1170,29 @@
       "Net-(U201-BATD{slash}CD)": [
         "PWM"
       ],
+      "Net-(U201-SW)": [
+        "PWR"
+      ],
       "Net-(U201-VIN)": [
         "PWM"
+      ],
+      "Net-(U202-VLX1)": [
+        "PWR"
+      ],
+      "Net-(U202-VLX2)": [
+        "PWR"
+      ],
+      "Net-(U202-VLX3)": [
+        "PWR"
+      ],
+      "Net-(U202-VLX4)": [
+        "PWR"
+      ],
+      "Net-(U202-~{PONKEY})": [
+        "PWR"
+      ],
+      "Net-(U202-~{RST})": [
+        "PWR"
       ],
       "Net-(U203-LDO1OUT)": [
         "PWM"
@@ -1364,6 +1424,9 @@
       "unconnected-(C21-Pad2)": [
         "PWR"
       ],
+      "unconnected-(C214-Pad2)": [
+        "PWR"
+      ],
       "unconnected-(J2-Pad01)": [
         "RCC_BOOT_RST_DEBUG"
       ],
@@ -1509,6 +1572,21 @@
         "RCC_BOOT_RST_DEBUG"
       ],
       "unconnected-(U16-PG-Pad4)": [
+        "PWR"
+      ],
+      "unconnected-(U202-BSTOUT-Pad34)": [
+        "PWR"
+      ],
+      "unconnected-(U202-SWIN-Pad37)": [
+        "PWR"
+      ],
+      "unconnected-(U202-SWOUT-Pad38)": [
+        "PWR"
+      ],
+      "unconnected-(U202-VBUSOTG-Pad35)": [
+        "PWR"
+      ],
+      "unconnected-(U202-VLXBST-Pad33)": [
         "PWR"
       ],
       "unconnected-(U203-BSTOUT-Pad34)": [

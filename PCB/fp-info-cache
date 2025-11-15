@@ -1,4 +1,4 @@
-26108964069843279
+26114291340915458
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -104195,6 +104195,13 @@ IHLP1210BZEZ3R3M5A
 2
 2
 lib
+INDC2016X120N
+
+
+0
+2
+2
+lib
 MLP14_2P5X2P5_ONS
 
 
@@ -104300,6 +104307,13 @@ SW_PTS525SM15SMTR2LFS
 4
 4
 lib
+TPS62840DLCR
+
+
+0
+8
+8
+lib
 TPS563252DRLR
 
 TPS563252DRLR 
@@ -104341,6 +104355,13 @@ XCVR_LBEE5PK2AE-771
 0
 77
 77
+lib
+XCVR_MAYA-W166-00B
+
+
+0
+86
+86
 lib
 XTAL_NX2012SA-32.768K-STD-MUB-1
 
