@@ -60,42 +60,6 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|100975000|64335000|5ebcbc26-aabe-4f86-960d-4ce2e07df5cb|408fb150-8400-4eca-89bb-9582df2567d4",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|100975000|64335000|5ebcbc26-aabe-4f86-960d-4ce2e07df5cb|e081f71d-c3cf-4e73-93b7-2ecde75e435b",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|101325000|64335000|408fb150-8400-4eca-89bb-9582df2567d4|e081f71d-c3cf-4e73-93b7-2ecde75e435b",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|102975000|64215000|b62a2602-ed9b-419f-a87d-e7730ed5ba2b|5e4b5ff4-7e7a-4571-975e-00e739dc380b",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|102975000|64215000|b62a2602-ed9b-419f-a87d-e7730ed5ba2b|efb65572-2fdf-4eac-8ecc-8ee48df2b70f",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|103325000|64215000|5e4b5ff4-7e7a-4571-975e-00e739dc380b|efb65572-2fdf-4eac-8ecc-8ee48df2b70f",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|98975000|64325000|41900200-336d-46f4-b56f-5e36bc5aee77|3e1ec43f-22d9-4c98-b9bb-d051e76573a6",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|98975000|64325000|41900200-336d-46f4-b56f-5e36bc5aee77|751bdf98-8568-44fa-b1c5-f5df885647a3",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
-          "clearance|99325000|64325000|3e1ec43f-22d9-4c98-b9bb-d051e76573a6|751bdf98-8568-44fa-b1c5-f5df885647a3",
-          "0.1 still ok. keep 0.1016 for other places"
-        ],
-        [
           "courtyards_overlap|73965000|97360000|57c3a1e7-a8a5-483c-8c74-e9da857dd850|8e5b417f-7933-47ed-bf15-6bd33813dfe5",
           ""
         ],
@@ -226,7 +190,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
