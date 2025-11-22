@@ -3504,6 +3504,16 @@
 		)
 		(uuid "9177d2fc-6577-4118-a254-2cc043c4d3e1")
 	)
+	(text "ENABLE later than  1.15 ms after 3.3V"
+		(exclude_from_sim no)
+		(at 70.104 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a17ea520-b3c8-4f34-a93b-f78b3e7a39d9")
+	)
 	(text "120mA LDO max\n"
 		(exclude_from_sim no)
 		(at 398.272 190.754 0)
@@ -8411,7 +8421,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CSD23381F4"
+		(property "Value" "DMG1013T-7"
 			(at 261.62 207.0101 0)
 			(effects
 				(font
@@ -8420,7 +8430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "lib:CSD23381F4"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-523"
 			(at 260.35 210.82 0)
 			(effects
 				(font
@@ -8465,7 +8475,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C129355"
+		(property "LCSC Part #" ""
 			(at 255.27 208.28 0)
 			(effects
 				(font
