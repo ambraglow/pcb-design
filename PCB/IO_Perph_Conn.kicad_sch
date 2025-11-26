@@ -16391,10 +16391,6 @@
 		(uuid "15697d45-6263-44aa-8fb0-551f0db48da9")
 	)
 	(no_connect
-		(at 162.56 101.6)
-		(uuid "1b324f91-2538-47ab-a416-7aebfa94758a")
-	)
-	(no_connect
 		(at 162.56 116.84)
 		(uuid "20517536-3253-4b96-ab59-1b7e22016401")
 	)
@@ -16423,10 +16419,6 @@
 		(uuid "5e5db022-7469-4dfd-9b35-4bc9b6599f29")
 	)
 	(no_connect
-		(at 227.33 90.17)
-		(uuid "5fb58728-9e4e-4e59-980b-07c89b3542a6")
-	)
-	(no_connect
 		(at 271.78 92.71)
 		(uuid "64921dbb-731b-45c3-aa15-62343cb1d1c3")
 	)
@@ -16447,20 +16439,8 @@
 		(uuid "7ce70ff1-c8b3-4b9f-a7a1-807e02ecb139")
 	)
 	(no_connect
-		(at 227.33 102.87)
-		(uuid "8e6c797a-118c-4a05-a726-93796e993b5d")
-	)
-	(no_connect
-		(at 227.33 105.41)
-		(uuid "93c757ab-c9f7-421e-807b-dc5f2f5e2692")
-	)
-	(no_connect
 		(at 227.33 87.63)
 		(uuid "aa4b8cf4-4f08-4e32-b28a-c3a3fe910e41")
-	)
-	(no_connect
-		(at 162.56 119.38)
-		(uuid "ac26c8f8-1878-46be-a762-890c81cc2480")
 	)
 	(no_connect
 		(at 105.41 96.52)
@@ -16493,10 +16473,6 @@
 	(no_connect
 		(at 162.56 58.42)
 		(uuid "e09525b5-d29b-4012-b0dd-34b9ba2d5636")
-	)
-	(no_connect
-		(at 227.33 107.95)
-		(uuid "e81c9392-5106-4263-8577-78c160a2bfa0")
 	)
 	(no_connect
 		(at 271.78 87.63)
@@ -21317,6 +21293,28 @@
 			)
 		)
 	)
+	(global_label "BT_RESET"
+		(shape input)
+		(at 162.56 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a411ab3-a7b0-4c56-8e15-c905220c3026")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 174.4955 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "uSD_DETECT"
 		(shape input)
 		(at 227.33 82.55 180)
@@ -21375,6 +21373,28 @@
 		(uuid "464de43b-34bf-4248-9c0c-3006e6bfa17f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.1764 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WLAN_RESET"
+		(shape input)
+		(at 227.33 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4764dd4d-f179-4f93-bc40-8523d81022fc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.7335 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21645,6 +21665,28 @@
 		(uuid "774af01d-44ac-4481-a09b-8af4fc9ed3d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 213.1568 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WLAN_WAKE_HOST"
+		(shape input)
+		(at 227.33 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78807e3f-57d6-47c0-ae0b-938f458cb938")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 207.7139 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22081,6 +22123,28 @@
 			)
 		)
 	)
+	(global_label "BT_DEV_WAKE"
+		(shape input)
+		(at 227.33 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d2af7e4d-1fb2-4d83-b69d-613fd621082f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 211.7054 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDMMC3_CK"
 		(shape input)
 		(at 271.78 115.57 0)
@@ -22255,6 +22319,50 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BT_WAKE_HOST"
+		(shape input)
+		(at 227.33 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb622668-3229-4a87-8da8-b16632404bd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.3749 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "WLAN_DEV_WAKE"
+		(shape input)
+		(at 162.56 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ecfee872-4f05-41b6-8888-75fa944735df")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.8456 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

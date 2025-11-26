@@ -2297,12 +2297,6 @@
 		(uuid "5b11597a-d9d5-4ffa-b2b9-4f0763ec64b3")
 	)
 	(junction
-		(at 212.09 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61e0ccf2-091d-4b02-a548-b66218dedc98")
-	)
-	(junction
 		(at 73.66 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2349,12 +2343,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d87ca867-1b00-471f-be9e-1733c64b068c")
-	)
-	(junction
-		(at 236.22 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db490ad6-52ca-45ef-b42c-5db69459bd00")
 	)
 	(junction
 		(at 64.77 87.63)
@@ -2566,16 +2554,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 59.69) (xy 236.22 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23a5da31-d117-4e81-b4b4-8dba08f717a8")
-	)
-	(wire
-		(pts
 			(xy 187.96 33.02) (xy 187.96 63.5)
 		)
 		(stroke
@@ -2776,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 50.8) (xy 241.3 50.8)
+			(xy 224.79 50.8) (xy 241.3 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2793,16 +2771,6 @@
 			(type default)
 		)
 		(uuid "689f33d2-aad7-4432-885d-77f735ef6853")
-	)
-	(wire
-		(pts
-			(xy 224.79 50.8) (xy 236.22 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6903039e-74d6-442a-a016-8b908d84e1ae")
 	)
 	(wire
 		(pts
@@ -2826,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 50.8) (xy 212.09 50.8)
+			(xy 199.39 50.8) (xy 224.79 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2846,16 +2814,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 59.69) (xy 212.09 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73029b0d-90d7-458a-a012-cc4ce62a1f94")
-	)
-	(wire
-		(pts
 			(xy 87.63 101.6) (xy 114.3 101.6)
 		)
 		(stroke
@@ -2863,16 +2821,6 @@
 			(type default)
 		)
 		(uuid "732ec89c-6f37-45d7-9c29-770974e391dc")
-	)
-	(wire
-		(pts
-			(xy 212.09 50.8) (xy 224.79 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73b446df-628e-44b3-9ec0-a6378cbe1aa9")
 	)
 	(wire
 		(pts
@@ -6133,154 +6081,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 212.09 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4839bbd0-55d3-4872-9ac2-a702188574a3")
-		(property "Reference" "C5"
-			(at 216.662 53.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nF"
-			(at 217.678 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lib:C_0402_small"
-			(at 213.0552 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "81-GRM155R61E104KA7J"
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BUILT_BY" ""
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COPYRIGHT" ""
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C307331"
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCELIBRARY" ""
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REC P/N" " GRM155R61E104KA87J"
-			(at 212.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c81ead7b-40b4-4ab5-a391-edd6da5227bd")
-		)
-		(pin "2"
-			(uuid "0c021455-4311-4177-81e5-c8f8147860a2")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/4988eac5-6207-4695-88c2-59584fd8c847"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 83.82 111.76 90)
 		(unit 1)
@@ -6740,71 +6540,6 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/4988eac5-6207-4695-88c2-59584fd8c847"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 236.22 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67565647-2cdc-4ab4-bb23-3134bac0e095")
-		(property "Reference" "#PWR06"
-			(at 236.22 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 236.22 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "63752a00-678e-4342-ab9c-b71ecf6a8f80")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/4988eac5-6207-4695-88c2-59584fd8c847"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -8867,154 +8602,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 236.22 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3c0d632-1882-4b4f-9997-b06599a9024b")
-		(property "Reference" "C7"
-			(at 240.538 53.848 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uF"
-			(at 241.046 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lib:C_0402_small"
-			(at 235.2548 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 236.22 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser P/N" "81-GRM155R61E105KA2D"
-			(at 236.22 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "BUILT_BY" ""
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COPYRIGHT" ""
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C52923"
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCELIBRARY" ""
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "REC P/N" "GRM155R61E105KA12D"
-			(at 236.22 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4fc9b09f-b9e9-470c-bfd3-7c648c341fff")
-		)
-		(pin "2"
-			(uuid "c541ffe6-b230-4dd5-9d7d-19c7f22eff57")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/4988eac5-6207-4695-88c2-59584fd8c847"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 83.82 104.14 90)
 		(unit 1)
@@ -9505,71 +9092,6 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/4988eac5-6207-4695-88c2-59584fd8c847"
 					(reference "#PWR0908")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 212.09 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fd1262c0-83f6-4f60-8165-d3a9275f362c")
-		(property "Reference" "#PWR04"
-			(at 212.09 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 212.09 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 212.09 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b6b7cfe-9e23-4df0-beca-d18fdab0f19e")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/4988eac5-6207-4695-88c2-59584fd8c847"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
