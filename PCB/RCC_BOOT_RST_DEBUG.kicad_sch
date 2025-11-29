@@ -8,6 +8,178 @@
 		(comment 1 "Author: Mykola Grodskyi")
 	)
 	(lib_symbols
+		(symbol "B3U-3000P:B3U-3000P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at -7.6309 5.0873 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "B3U-3000P"
+				(at -7.6337 -7.6337 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "B3U-3000P:SW_B3U-3000P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Omron"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "B3U-3000P_0_0"
+				(rectangle
+					(start -8.9055 -1.2722)
+					(end -7.62 1.27)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -7.62 -5.08)
+					(end 7.62 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 7.6278 -1.2713)
+					(end 8.89 1.27)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -12.7 0 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -373,399 +545,6 @@
 								(size 1.27 1.27)
 							)
 						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "EVQ-9P701P:EVQ-9P701P"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at -7.62 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "EVQ-9P701P"
-				(at -7.62 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "EVQ-9P701P:SW_EVQ-9P701P"
-				(at -0.762 4.826 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Panasonic Electronic Components"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=eda"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=snap"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "EVQ-9P701P"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-				(at 0.254 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Panasonic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "EVQ-9P701P_0_0"
-				(polyline
-					(pts
-						(xy -2.921 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -2.54 0)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 0.254) (xy 1.778 2.286)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 0)
-					(radius 0.3302)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 2.921 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2D"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -5.08 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2B"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -7.62 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(symbol "EVQ-9P701P_0_1"
-				(polyline
-					(pts
-						(xy -5.08 -2.54) (xy -5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
 					)
 				)
 			)
@@ -9507,12 +9286,6 @@
 		(uuid "25a00b87-7ad3-45ae-bd63-e76a02e94867")
 	)
 	(junction
-		(at 46.99 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2732ba21-277c-4f81-a3e9-bfe74d4c3346")
-	)
-	(junction
 		(at 119.38 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9523,12 +9296,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2d7a79b4-90f3-4385-b604-0ab78151ac91")
-	)
-	(junction
-		(at 52.07 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "301535b7-7e18-4a9d-a7de-2029f5d38c75")
 	)
 	(junction
 		(at 317.5 124.46)
@@ -9577,12 +9344,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d0fd464-263b-4524-aa07-9e3a6090c54e")
-	)
-	(junction
-		(at 49.53 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71d48143-f407-4dca-aff1-590582deec20")
 	)
 	(junction
 		(at 172.72 134.62)
@@ -9637,18 +9398,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb0d0968-cd23-4478-a4f9-62624ee6ee06")
-	)
-	(junction
-		(at 44.45 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bd9017a6-1362-41e1-94fe-f77ec4f9a8fd")
-	)
-	(junction
-		(at 46.99 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c358ce3e-4c30-4c2e-8c2e-cf6542b9e892")
 	)
 	(junction
 		(at 279.4 119.38)
@@ -9778,16 +9527,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 92.71) (xy 52.07 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26263736-a2f2-4833-b117-51bf52310620")
-	)
-	(wire
-		(pts
 			(xy 247.65 52.07) (xy 250.19 52.07)
 		)
 		(stroke
@@ -9868,16 +9607,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 93.98) (xy 57.15 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a7724c3-05e9-4884-b428-97571476751f")
-	)
-	(wire
-		(pts
 			(xy 127 146.05) (xy 127 156.21)
 		)
 		(stroke
@@ -9888,16 +9617,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 77.47) (xy 46.99 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e9bc93e-488a-422c-bd69-87b5d259e6cb")
-	)
-	(wire
-		(pts
 			(xy 250.19 52.07) (xy 262.89 52.07)
 		)
 		(stroke
@@ -9905,16 +9624,6 @@
 			(type default)
 		)
 		(uuid "401696a7-0e45-4b23-896c-6cf5cb5dba74")
-	)
-	(wire
-		(pts
-			(xy 44.45 93.98) (xy 44.45 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4197b083-e54f-44f9-b8f4-3e06a06601ac")
 	)
 	(wire
 		(pts
@@ -10015,16 +9724,6 @@
 			(type default)
 		)
 		(uuid "5119671b-028a-4fc9-801a-7ec5f708fbc4")
-	)
-	(wire
-		(pts
-			(xy 44.45 92.71) (xy 44.45 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ba9cfea-710f-4b4d-bbb1-3d45349809aa")
 	)
 	(wire
 		(pts
@@ -10168,16 +9867,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 93.98) (xy 49.53 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "778ab9d2-67a7-428c-9f19-2b06882a92b8")
-	)
-	(wire
-		(pts
 			(xy 280.67 38.1) (xy 280.67 40.64)
 		)
 		(stroke
@@ -10205,16 +9894,6 @@
 			(type default)
 		)
 		(uuid "7a854929-f490-41e3-8c57-862c990c7dbc")
-	)
-	(wire
-		(pts
-			(xy 44.45 93.98) (xy 46.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ca1e9fc-166f-4203-9209-78a2d4f3a96c")
 	)
 	(wire
 		(pts
@@ -10288,7 +9967,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 72.39) (xy 57.15 72.39)
+			(xy 44.45 72.39) (xy 57.15 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10345,16 +10024,6 @@
 			(type default)
 		)
 		(uuid "8d557389-c794-4362-bab9-483ab4e1f3f8")
-	)
-	(wire
-		(pts
-			(xy 49.53 92.71) (xy 49.53 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e218d89-c6df-4577-a162-5eef96af2747")
 	)
 	(wire
 		(pts
@@ -10448,16 +10117,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 93.98) (xy 57.15 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f1f3565-f98a-43c2-a7e4-9e448dec4573")
-	)
-	(wire
-		(pts
 			(xy 166.37 68.58) (xy 166.37 82.55)
 		)
 		(stroke
@@ -10525,16 +10184,6 @@
 			(type default)
 		)
 		(uuid "ad6d4ace-822c-4d04-9b73-f032e66c0e3b")
-	)
-	(wire
-		(pts
-			(xy 49.53 93.98) (xy 52.07 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae865c3a-1fe6-47c4-9e52-e8ab655b29dd")
 	)
 	(wire
 		(pts
@@ -10748,16 +10397,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 92.71) (xy 46.99 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d62222ed-301c-497f-8948-f5dbba649077")
-	)
-	(wire
-		(pts
 			(xy 153.67 139.7) (xy 153.67 149.86)
 		)
 		(stroke
@@ -10818,6 +10457,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 82.55) (xy 57.15 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2c8333a-2f5a-4a59-ab5a-8c67d6b87cd9")
+	)
+	(wire
+		(pts
 			(xy 119.38 62.23) (xy 124.46 62.23)
 		)
 		(stroke
@@ -10825,6 +10474,16 @@
 			(type default)
 		)
 		(uuid "e2e1aa19-2fce-477b-9d66-2255362ce846")
+	)
+	(wire
+		(pts
+			(xy 44.45 105.41) (xy 44.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e470784d-cabc-4ea4-8605-8cee58ba1833")
 	)
 	(wire
 		(pts
@@ -10865,16 +10524,6 @@
 			(type default)
 		)
 		(uuid "ec979f53-e46b-4e28-b819-7d9c5dcc1db0")
-	)
-	(wire
-		(pts
-			(xy 44.45 72.39) (xy 46.99 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eca2a27d-6eae-45cd-9103-0a65fa0b9a01")
 	)
 	(wire
 		(pts
@@ -11722,272 +11371,6 @@
 			(project "MPU_MOD"
 				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
 					(reference "R710")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EVQ-9P701P:EVQ-9P701P")
-		(at 44.45 85.09 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cf3aabb-91f7-4b1a-9fac-80e703d78666")
-		(property "Reference" "S701"
-			(at 40.64 83.8199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "EVQ-9P701P"
-			(at 40.64 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "lib:SW_EVQ-9P701P"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Panasonic Electronic Components"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "1.35mm"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=eda"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "N/A"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/EVQ-9P701P/Panasonic+Electronic+Components/view-part/?ref=snap"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "EVQ-9P701P"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Panasonic"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "BUILT_BY" ""
-			(at 44.45 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "COPYRIGHT" ""
-			(at 44.45 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" ""
-			(at 44.45 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" ""
-			(at 44.45 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" ""
-			(at 44.45 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SOURCELIBRARY" ""
-			(at 44.45 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VENDOR" ""
-			(at 44.45 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2B"
-			(uuid "e5e573a8-79b0-467c-b091-64cd63ff138a")
-		)
-		(pin "1A"
-			(uuid "eb88329d-749e-4cfc-97d1-fc1ff99235ac")
-		)
-		(pin "2A"
-			(uuid "7172b027-b882-46d5-b004-2d6b3a7c1727")
-		)
-		(pin "1B"
-			(uuid "f0276e55-f195-4a25-8c77-a6652124b90d")
-		)
-		(pin "2C"
-			(uuid "e0048fdd-73ee-46c9-8dcb-94774319439f")
-		)
-		(pin "2D"
-			(uuid "835efb0e-e22a-4d01-98b5-bfe56d316a9b")
-		)
-		(instances
-			(project "MPU_MOD"
-				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
-					(reference "S701")
 					(unit 1)
 				)
 			)
@@ -15457,6 +14840,87 @@
 		)
 	)
 	(symbol
+		(lib_id "B3U-3000P:B3U-3000P")
+		(at 44.45 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba4baad5-892d-4a23-80d0-9ce18ec5edeb")
+		(property "Reference" "S1"
+			(at 50.8 88.9076 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B3U-3000P"
+			(at 50.8 91.4476 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "lib:SW_B3U-3000P"
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Omron"
+			(at 44.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe7372bd-626c-4211-8d72-a20def0dc572")
+		)
+		(pin "2"
+			(uuid "88ca10c2-c7b5-4126-bbf1-6f8dba0e3051")
+		)
+		(instances
+			(project ""
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "New_Library:STM32MP157FABx")
 		(at 201.93 114.3 0)
 		(unit 5)
@@ -17410,6 +16874,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 82.55 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d5ba9062-1d5c-4dbf-81c1-9cb7721bfc97")
+		(property "Reference" "#PWR018"
+			(at 57.15 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6381bc8-fd69-4ab4-b73b-24977ae36374")
+		)
+		(instances
+			(project "MPU_MOD"
+				(path "/65890f61-d586-475b-928a-b635a5e4e59e/89de852b-0235-4524-80ff-6a19f9022d3f"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 78.74 270)
 		(unit 1)
@@ -17893,7 +17423,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 97.79 0)
+		(at 44.45 105.41 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17902,7 +17432,7 @@
 		(dnp no)
 		(uuid "ed745469-9622-429a-bff8-88c803551308")
 		(property "Reference" "#PWR0702"
-			(at 44.45 104.14 0)
+			(at 44.45 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17911,7 +17441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 101.6 0)
+			(at 44.45 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17919,7 +17449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 97.79 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17928,7 +17458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 97.79 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17937,7 +17467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 97.79 0)
+			(at 44.45 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
